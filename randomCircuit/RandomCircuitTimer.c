@@ -25,7 +25,7 @@
 //! Number of times rotations are repeated for timing purposes
 # define N_DEPTHS 1
 //int depths[N_DEPTHS] = {20, 40, 60, 80, 100};
-int depths[N_DEPTHS] = {10};
+int depths[N_DEPTHS] = {100};
 //! 1: perform one rotation outside the timing loop to get around long communication
 //! time for first MPI send/recv
 # define INIT_COMMUNICATION 0
@@ -63,7 +63,7 @@ int main (int narg, char** varg) {
     env = createQuESTEnv();
 
     // model vars
-    int numQubits;
+    int numQubits, numTrials;
     int depth;
 
     Qureg qureg; 
