@@ -1,1 +1,0 @@
-/system/software/linux-x86_64/compilers/intel/intelPS-2016/bin/icc   -rdynamic CMakeFiles/demo.dir/RandomCircuit.c.o CMakeFiles/demo.dir/RandomCircuitTimer.c.o  -o demo -Wl,-rpath,/data/oerc-rse/oerc0113/QuEST_v2.1.0_performance/QuEST_Performance_2019/randomCircuit/arcus-b_CPU/15qubits4ranks16threads/build/QuEST_v2.1.0 QuEST_v2.1.0/libQuEST.so -lm 

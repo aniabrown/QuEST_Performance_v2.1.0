@@ -23,7 +23,6 @@
 
 # define maxNumQubits 40
 //! Number of times rotations are repeated for timing purposes
-# define N_TRIALS 50
 # define N_DEPTHS 1
 //int depths[N_DEPTHS] = {20, 40, 60, 80, 100};
 int depths[N_DEPTHS] = {10};
@@ -77,6 +76,7 @@ int main (int narg, char** varg) {
             printf(" *** error: argument %d out of range (1 -- %d)\n", numQubits,maxNumQubits);
             exit (EXIT_FAILURE);
         }
+        numTrials = atoi(varg[2]);
     } else {
         printf(" *** error: too few arguments, number of qubits expected\n");
         exit (EXIT_FAILURE);
@@ -92,7 +92,7 @@ int main (int narg, char** varg) {
 
     app_wtime_start = system_timer();
 
-    timingVec = (qreal*) malloc(N_TRIALS*N_DEPTHS*sizeof(timingVec));
+    timingVec = (qreal*) malloc(numTrials*N_DEPTHS*sizeof(timingVec));
     
     qureg = createQureg(numQubits, env);
 
@@ -133,12 +133,12 @@ int main (int narg, char** varg) {
     for (int i=0; i<N_DEPTHS; i++) {
         depth = depths[i];
         if (env.rank==0) fprintf(distribution, "%d", depth);
-        for (trial=0; trial<N_TRIALS; trial++){
+        for (trial=0; trial<numTrials; trial++){
             // for timing -- have all ranks start at same place
             syncQuESTEnv(env);
             wtime_start=system_timer();
 
-            // do rotation of each qubit N_TRIALS times for timing
+            // do rotation of each qubit numTrials times for timing
             wtime_duration = applyRandomCircuit(qureg,depth);
             //printf("wtime duration %f\n", wtime_duration);
 
@@ -166,20 +166,20 @@ int main (int narg, char** varg) {
             max=0; min=10e5;
             totTime=0;
 
-            for (trial=0; trial<N_TRIALS; trial++){
+            for (trial=0; trial<numTrials; trial++){
                 temp=timingVec[trial*N_DEPTHS + i];
                 totTime+=temp;
                 if (temp<min) min=temp;
                 if (temp>max) max=temp;
             }
 
-            avg = totTime/(qreal)(N_TRIALS*N_DEPTHS);
+            avg = totTime/(qreal)(numTrials*N_DEPTHS);
             standardDev=0;
-            for (int i=0; i<N_TRIALS*N_DEPTHS; i++){
+            for (int i=0; i<numTrials*N_DEPTHS; i++){
                     temp = timingVec[i]-avg;
                     standardDev += temp*temp;
             }
-            standardDev = sqrt(standardDev/(qreal)(N_TRIALS*N_DEPTHS));
+            standardDev = sqrt(standardDev/(qreal)(numTrials*N_DEPTHS));
 
             fprintf(timing, "%d, %.8f, %.8f, %.8f, %.8f\n", depths[i], avg, standardDev, max-avg, avg-min);
         }

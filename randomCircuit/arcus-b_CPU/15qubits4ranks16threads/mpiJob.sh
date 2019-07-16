@@ -28,15 +28,17 @@ export OMP_NUM_THREADS=16
 
 . enable_arcus-b_mpi.sh
 
-CMAKE_OPTIONS="-DUSER_SOURCE='randomCircuit/RandomCircuit.c;randomCircuit/RandomCircuitTimer.c' -DQuEST_DIR=QuEST_v2.1.0"
+CMAKE_OPTIONS="-DUSER_SOURCE='RandomCircuit.c;RandomCircuitTimer.c' -DQuEST_DIR=QuEST_v2.1.0"
 rm -r build
 mkdir build; cd build
 cmake $CMAKE_OPTIONS ../../..
 make
 
 NUM_QUBITS=15
+NUM_TRIALS=20
 EXE=demo
 
-time mpirun $MPI_HOSTS ./$EXE $NUM_QUBITS
+time mpirun $MPI_HOSTS ./$EXE $NUM_QUBITS $NUM_TRIALS
 
+cp TIMING* ..
 
