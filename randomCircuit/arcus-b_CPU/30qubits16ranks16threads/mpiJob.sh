@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set the number of nodes and processes per node. We are running one process on a single node
-#SBATCH --nodes=4
+#SBATCH --nodes=16
 #SBATCH --ntasks-per-node=1
 
 #SBATCH --mem=50Gb
@@ -9,14 +9,14 @@
 ####SBATCH --mem=100Gb
 
 # set max wallclock time
-#SBATCH --time=03:00:00
+#SBATCH --time=06:00:00
 
 # set name of job
 #SBATCH --job-name QuEST-network
 
 # set queue
 # Remove this line for runs that are not part of the nqit reservation
-#SBATCH --reservation=nqit
+##SBATCH --reservation=nqit
 
 module purge
 module load mvapich2/2.1.0__intel-2016
@@ -34,8 +34,8 @@ mkdir build; cd build
 cmake $CMAKE_OPTIONS ../../..
 make
 
-NUM_QUBITS=15
-NUM_TRIALS=20
+NUM_QUBITS=30
+NUM_TRIALS=50
 EXE=demo
 
 time mpirun $MPI_HOSTS ./$EXE $NUM_QUBITS $NUM_TRIALS
