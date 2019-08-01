@@ -2,8 +2,9 @@ import csv
 
 fileNameOutput = 'strongScaling30qubit.csv'
 
-ranks = [64, 32, 16, 8, 4, 2, 1]
+ranks = [1, 2, 4, 8, 16, 32, 64]
 threads = 16
+compareRank = 1
 
 getHeader = 1
 fullTable = []
@@ -16,13 +17,18 @@ for rank in ranks:
         with open(fileName) as csvFileIn:
             reader = list(csv.reader(csvFileIn))
             if (getHeader):
-                headers = ['numRanks', 'numThreads'] + reader[0]
+                headers = ['numRanks', 'numThreads' 'speedup'] + reader[0]
                 fullTable.append(headers)
                 getHeader = 0
 
-            dataRow = [rank, threads] + reader[1]
+            if (rank==compareRank):
+                compareTime = reader[1][1]
+           
+            speedup = compareTime/reader[1][1]
+            dataRow = [rank, threads, speedup] + reader[1]
             fullTable.append(dataRow)
     except:
+        compareRank = compareRank*2
         print('!! Skipped: ' + fileName + '. File not found.')
 
 
