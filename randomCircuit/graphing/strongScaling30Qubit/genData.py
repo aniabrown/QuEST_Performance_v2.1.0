@@ -1,4 +1,5 @@
 import csv
+import math
 
 fileNameOutput = 'strongScaling30qubit.csv'
 
@@ -18,15 +19,23 @@ for rank in ranks:
         with open(fileName) as csvFileIn:
             reader = list(csv.reader(csvFileIn))
             if (getHeader):
-                headers = ['numRanks', 'numThreads', 'speedup'] + reader[0]
+                headers = ['numRanks', 'numThreads', 'speedup', 'speedupStandardDev'] + reader[0]
                 fullTable.append(headers)
                 getHeader = 0
 
             if (rank==compareRank):
-                compareTime = reader[1][1]
-           
-            speedup = float(compareTime)/float(reader[1][1])
-            dataRow = [rank, threads, speedup] + reader[1]
+                compareTime = float(reader[1][1])
+                compareStandardDev = float(reader[1][2])
+          
+            time = float(reader[1][1])
+            speedup = compareTime/time
+
+            standardDev = float(reader[1][2])
+
+            speedupStandardDev = math.sqrt( (compareStandardDev/compareTime)**2 + \
+                    (standardDev/time)**2 )
+
+            dataRow = [rank, threads, speedup, speedupStandardDev] + reader[1]
             fullTable.append(dataRow)
     except:
         compareRank = compareRank*2
