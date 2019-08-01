@@ -8,6 +8,7 @@ compareRank = 1
 
 getHeader = 1
 fullTable = []
+compareTime=1
 
 for rank in ranks:
     fileName = '../../arcus-b_CPU/30qubits' + str(rank) + 'ranks' + str(threads) + \
@@ -17,19 +18,19 @@ for rank in ranks:
         with open(fileName) as csvFileIn:
             reader = list(csv.reader(csvFileIn))
             if (getHeader):
-                headers = ['numRanks', 'numThreads' 'speedup'] + reader[0]
+                headers = ['numRanks', 'numThreads', 'speedup'] + reader[0]
                 fullTable.append(headers)
                 getHeader = 0
 
             if (rank==compareRank):
                 compareTime = reader[1][1]
            
-            speedup = compareTime/reader[1][1]
+            speedup = float(compareTime)/float(reader[1][1])
             dataRow = [rank, threads, speedup] + reader[1]
             fullTable.append(dataRow)
     except:
         compareRank = compareRank*2
-        print('!! Skipped: ' + fileName + '. File not found.')
+        print('!! Skipped: ' + fileName)
 
 
 with open(fileNameOutput, 'w') as csvFileOut:
