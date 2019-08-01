@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{graphics}
+\usepackage{tikz}
+\pgfrealjobname{survey}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\begin{document}
+
+
+% -----------------------------------------------------------------------------
+% Arcus-b 30 qubit strong scaling
+% -----------------------------------------------------------------------------
+
+\beginpgfgraphicnamed{arcus_30qubit_strongScaling}
+\begin{tikzpicture}[scale=1.2]
+\begin{axis}[
+    xlabel={Number of compute nodes},
+    ylabel={Time (s)},
+    legend pos=outer north east,
+    very thin
+    ]
+
+\addplot [
+    mark=*, mark size=2,
+    orange,
+    error bars/.cd,
+    y dir = both, y explicit,
+    ]
+table [
+    x=ranks,
+    y=time(s),
+    col sep=comma,
+    y error plus=maxDelta,
+    y error minus=minDelta
+] {strongScaling30qubit.csv};
+
+\addlegendentry{30 qubits}
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+
+\end{document}
+
