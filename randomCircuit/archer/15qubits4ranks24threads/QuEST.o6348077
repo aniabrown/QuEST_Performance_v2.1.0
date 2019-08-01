@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+*** ambrown3   Job: 6348077.sdb   started: 16/07/19 14:30:39   host: mom5 ***
+*** ambrown3   Job: 6348077.sdb   started: 16/07/19 14:30:39   host: mom5 ***
+*** ambrown3   Job: 6348077.sdb   started: 16/07/19 14:30:39   host: mom5 ***
+*** ambrown3   Job: 6348077.sdb   started: 16/07/19 14:30:39   host: mom5 ***
+
+--------------------------------------------------------------------------------
+-- The C compiler identification is Intel 17.0.0.20160721
+-- The CXX compiler identification is Intel 17.0.0.20160721
+-- Cray Programming Environment 2.5.10 C
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Cray Programming Environment 2.5.10 CXX
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/craype/2.5.10/bin/cc  
+-- Found MPI_CXX: /opt/cray/craype/2.5.10/bin/CC  
+-- Try OpenMP C flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -qopenmp  
+-- Compiling RandomCircuit.c;RandomCircuitTimer.c to executable demo
+-- Found PythonInterp: /usr/bin/python (found version "2.6.9") 
+-- Testing is OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/c01/c01/ambrown3/QuEST_Performance_v2.1.0/randomCircuit/archer/15qubits4ranks24threads/build
+Scanning dependencies of target QuEST
+[  9%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 18%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 27%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 36%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 45%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 54%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 63%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 72%] Linking C shared library libQuEST.so
+[ 72%] Built target QuEST
+Scanning dependencies of target demo
+[ 81%] Building C object CMakeFiles/demo.dir/RandomCircuit.c.o
+[ 90%] Building C object CMakeFiles/demo.dir/RandomCircuitTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+QUBITS:
+Number of qubits is 15.
+Number of amps is 32768.
+Number of amps per rank is 8192.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 4
+OpenMP enabled
+Number of threads available is 24
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = 5.551115e-15
+Total program execution: 0.314290 s
+Total program execution: 0.317793 s
+Total program execution: 0.322366 s
+Total program execution: 0.354230 s
+Application 36629597 resources: utime ~29s, stime ~0s, Rss ~11092, inblocks ~4179, outblocks ~638
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=96,place=free,walltime=00:20:00
+Resources allocated: cpupercent=0,cput=00:00:27,mem=68524kb,ncpus=96,vmem=287660kb,walltime=00:00:57
+
+*** ambrown3   Job: 6348077.sdb   ended: 16/07/19 14:31:36   queue: R6337306 ***
+*** ambrown3   Job: 6348077.sdb   ended: 16/07/19 14:31:36   queue: R6337306 ***
+*** ambrown3   Job: 6348077.sdb   ended: 16/07/19 14:31:36   queue: R6337306 ***
+*** ambrown3   Job: 6348077.sdb   ended: 16/07/19 14:31:36   queue: R6337306 ***
+--------------------------------------------------------------------------------
