@@ -24,12 +24,14 @@
         xtick = {1,2,4,8,16,32,64},
         %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
         ymin=1,
-        ymax=8,
-        ytick = {1,2,4,8},
+        ymax=16,
+        ytick = {1,2,4,8,16},
+        width = 10cm,
+        height = 6cm,
         %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
         ]
 
-        \addplot [draw=gray,dashed,style={thick}][domain=1:64]{x/8};
+        \addplot [draw=gray,dashed,style={thick}][domain=1:64]{x/4};
     \addlegendentry{Optimal scaling}
 
     \addplot [
