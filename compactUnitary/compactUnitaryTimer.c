@@ -19,13 +19,9 @@
 
 # include "QuEST_precision.h"
 # include "QuEST.h"
-# include "RandomCircuit.h"
 
 # define maxNumQubits 40
 //! Number of times rotations are repeated for timing purposes
-# define N_DEPTHS 1
-//int depths[N_DEPTHS] = {20, 40, 60, 80, 100};
-int depths[N_DEPTHS] = {100};
 //! 1: perform one rotation outside the timing loop to get around long communication
 //! time for first MPI send/recv
 # define INIT_COMMUNICATION 0
@@ -64,7 +60,6 @@ int main (int narg, char** varg) {
 
     // model vars
     int numQubits, numTrials;
-    int depth;
 
     Qureg qureg; 
     qreal normError=0;
@@ -92,7 +87,7 @@ int main (int narg, char** varg) {
 
     app_wtime_start = system_timer();
 
-    timingVec = (qreal*) malloc(numTrials*N_DEPTHS*sizeof(timingVec));
+    timingVec = (qreal*) malloc(numTrials*numQubits*sizeof(timingVec));
     
     qureg = createQureg(numQubits, env);
 
@@ -114,40 +109,47 @@ int main (int narg, char** varg) {
     if (env.rank==0){  
         sprintf(filename, "TIMING_STATS_ROTATE_%s.csv", envString);
         timing = fopen(filename, "w");
-        fprintf(timing, "depth, time(s), standardDev, maxDelta, minDelta\n");
+        fprintf(timing, "qubit, time(s), standardDev, maxDelta, minDelta\n");
 
         sprintf(filename, "TIMING_FULL_ROTATE_%s.csv", envString);
         distribution = fopen(filename, "w");
-        fprintf(distribution, "depth, trials\n");
+        fprintf(distribution, "qubit, trials\n");
     }
 
+    qreal ang1 = 1.2320;
+    qreal ang2 = 0.4230; 
+    qreal ang3 = -0.6523;
+
+    Complex alpha, beta;
+    alpha.real = cos(ang1) * cos(ang2);
+    alpha.imag = cos(ang1) * sin(ang2);
+    beta.real  = sin(ang1) * cos(ang3);
+    beta.imag  = sin(ang1) * sin(ang3);
 
     // do a big MPI communication to get around first send/recv in the program occasionally taking many times longer
     //(due to MPI setup?)
     if (INIT_COMMUNICATION){
-        wtime_duration = applyRandomCircuit(qureg,10);
+        compactUnitary(qureg,numQubits-1,alpha,beta);
     }
 
-    seedQuESTDefault();
 
-    for (int i=0; i<N_DEPTHS; i++) {
-        depth = depths[i];
-        if (env.rank==0) fprintf(distribution, "%d", depth);
+    for (int i=0; i<numQubits; i++) {
+        if (env.rank==0) fprintf(distribution, "%d", i);
         for (trial=0; trial<numTrials; trial++){
             // for timing -- have all ranks start at same place
             syncQuESTEnv(env);
             wtime_start=system_timer();
 
             // do rotation of each qubit numTrials times for timing
-            wtime_duration = applyRandomCircuit(qureg,depth);
+            compactUnitary(qureg,i,alpha,beta);
             //printf("wtime duration %f\n", wtime_duration);
 
             syncQuESTEnv(env);
-            //wtime_stop=system_timer();
-            //wtime_duration=wtime_stop-wtime_start;
+            wtime_stop=system_timer();
+            wtime_duration=wtime_stop-wtime_start;
             if (env.rank==0) {
-                timingVec[trial*N_DEPTHS + i]=wtime_duration;
-                fprintf(distribution, ",%.8f", timingVec[trial*N_DEPTHS + i]);
+                timingVec[trial*numQubits + i]=wtime_duration;
+                fprintf(distribution, ",%.8f", timingVec[trial*numQubits + i]);
                 fflush(distribution);
             }
         }
@@ -162,12 +164,12 @@ int main (int narg, char** varg) {
     // report timing to file
     if (env.rank==0){
         qreal totTime, avg, standardDev, temp, max, min;
-        for(int i=0; i<N_DEPTHS; i++){
+        for(int i=0; i<numQubits; i++){
             max=0; min=10e5;
             totTime=0;
 
             for (trial=0; trial<numTrials; trial++){
-                temp=timingVec[trial*N_DEPTHS + i];
+                temp=timingVec[trial*numQubits + i];
                 totTime+=temp;
                 if (temp<min) min=temp;
                 if (temp>max) max=temp;
@@ -176,12 +178,12 @@ int main (int narg, char** varg) {
             avg = totTime/(qreal)(numTrials);
             standardDev=0;
             for (int trial=0; trial<numTrials; trial++){
-                    temp = timingVec[trial*N_DEPTHS + i]-avg;
+                    temp = timingVec[trial*numQubits + i]-avg;
                     standardDev += temp*temp;
             }
             standardDev = sqrt(standardDev/(qreal)(numTrials));
 
-            fprintf(timing, "%d, %.8f, %.8f, %.8f, %.8f\n", depths[i], avg, standardDev, max-avg, avg-min);
+            fprintf(timing, "%d, %.8f, %.8f, %.8f, %.8f\n", i, avg, standardDev, max-avg, avg-min);
         }
     }
 
