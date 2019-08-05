@@ -1,0 +1,13 @@
+rm: cannot remove `build': No such file or directory
+CMake Warning at CMakeLists.txt:68 (message):
+  Usable Python 3.4+ not found on system -- Disabling testing
+
+
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
