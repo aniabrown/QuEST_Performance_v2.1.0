@@ -1,9 +1,9 @@
 #!/bin/bash --login
 
 # set the number of nodes and processes per node. We are running one process on a single node
-#PBS -l select=4
+#PBS -l select=32
 
-#PBS -l walltime=03:00:00
+#PBS -l walltime=02:00:00
 
 # set name of job
 #PBS -N QuEST
@@ -29,6 +29,6 @@ NUM_QUBITS=30
 NUM_TRIALS=50
 EXE=demo
 
-aprun -n 4 -d 24 -cc numa_node ./$EXE $NUM_QUBITS $NUM_TRIALS
+aprun -n 32 -d 24 -cc numa_node ./$EXE $NUM_QUBITS $NUM_TRIALS
 
 cp TIMING* ..

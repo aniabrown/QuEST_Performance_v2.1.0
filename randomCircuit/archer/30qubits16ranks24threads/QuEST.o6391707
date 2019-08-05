@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
-*** ambrown3   Job: 6348168.sdb   started: 16/07/19 14:46:06   host: mom1 ***
-*** ambrown3   Job: 6348168.sdb   started: 16/07/19 14:46:06   host: mom1 ***
-*** ambrown3   Job: 6348168.sdb   started: 16/07/19 14:46:06   host: mom1 ***
-*** ambrown3   Job: 6348168.sdb   started: 16/07/19 14:46:06   host: mom1 ***
+*** ambrown3   Job: 6391707.sdb   started: 05/08/19 11:52:27   host: mom2 ***
+*** ambrown3   Job: 6391707.sdb   started: 05/08/19 11:52:27   host: mom2 ***
+*** ambrown3   Job: 6391707.sdb   started: 05/08/19 11:52:27   host: mom2 ***
+*** ambrown3   Job: 6391707.sdb   started: 05/08/19 11:52:27   host: mom2 ***
 
 --------------------------------------------------------------------------------
 -- The C compiler identification is Intel 17.0.0.20160721
@@ -34,7 +34,7 @@
 -- Testing is OFF
 -- Configuring done
 -- Generating done
--- Build files have been written to: /work/c01/c01/ambrown3/QuEST_Performance_v2.1.0/randomCircuit/archer/28qubits4ranks24threads/build
+-- Build files have been written to: /work/c01/c01/ambrown3/QuEST_Performance_v2.1.0/randomCircuit/archer/30qubits16ranks24threads/build
 Scanning dependencies of target QuEST
 [  9%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
 [ 18%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
@@ -53,27 +53,39 @@ Scanning dependencies of target demo
 QUBITS:
 Number of qubits is 30.
 Number of amps is 1073741824.
-Number of amps per rank is 268435456.
+Number of amps per rank is 67108864.
 EXECUTION ENVIRONMENT:
 Running distributed (MPI) version
-Number of ranks is 4
+Number of ranks is 16
 OpenMP enabled
 Number of threads available is 24
 Precision: size of qreal is 8 bytes
 Applied random circuit
-VERIFICATION: norm error = 1.426637e-13
-Total program execution: 945.230382 s
-Total program execution: 945.246247 s
-Total program execution: 945.254257 s
-Total program execution: 945.274925 s
-Application 36629898 resources: utime ~75715s, stime ~318s, Rss ~8400292, inblocks ~4710, outblocks ~1149
+VERIFICATION: norm error = 1.432188e-13
+Total program execution: 2760.810934 s
+Total program execution: 2760.814992 s
+Total program execution: 2760.834711 s
+Total program execution: 2760.843015 s
+Total program execution: 2760.842761 s
+Total program execution: 2760.846516 s
+Total program execution: 2760.850846 s
+Total program execution: 2760.854411 s
+Total program execution: 2760.855060 s
+Total program execution: 2760.855319 s
+Total program execution: 2760.858475 s
+Total program execution: 2760.866926 s
+Total program execution: 2760.878614 s
+Total program execution: 2760.878218 s
+Total program execution: 2760.906566 s
+Total program execution: 2760.910812 s
+Application 36825252 resources: utime ~1042371s, stime ~11697s, Rss ~2105120, inblocks ~19745, outblocks ~3058
 --------------------------------------------------------------------------------
 
-Resources requested: ncpus=96,place=free,walltime=00:20:00
-Resources allocated: cpupercent=0,cput=00:00:26,mem=33008kb,ncpus=96,vmem=216732kb,walltime=00:16:39
+Resources requested: ncpus=384,place=free,walltime=02:00:00
+Resources allocated: cpupercent=1,cput=00:00:27,mem=38912kb,ncpus=384,vmem=365684kb,walltime=00:46:58
 
-*** ambrown3   Job: 6348168.sdb   ended: 16/07/19 15:02:45   queue: R6337306 ***
-*** ambrown3   Job: 6348168.sdb   ended: 16/07/19 15:02:45   queue: R6337306 ***
-*** ambrown3   Job: 6348168.sdb   ended: 16/07/19 15:02:45   queue: R6337306 ***
-*** ambrown3   Job: 6348168.sdb   ended: 16/07/19 15:02:45   queue: R6337306 ***
+*** ambrown3   Job: 6391707.sdb   ended: 05/08/19 12:39:24   queue: standard ***
+*** ambrown3   Job: 6391707.sdb   ended: 05/08/19 12:39:24   queue: standard ***
+*** ambrown3   Job: 6391707.sdb   ended: 05/08/19 12:39:24   queue: standard ***
+*** ambrown3   Job: 6391707.sdb   ended: 05/08/19 12:39:24   queue: standard ***
 --------------------------------------------------------------------------------
