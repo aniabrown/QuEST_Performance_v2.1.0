@@ -33,7 +33,7 @@ CMake Warning at CMakeLists.txt:68 (message):
 -- Testing is OFF
 -- Configuring done
 -- Generating done
--- Build files have been written to: /data/oerc-rse/oerc0113/QuEST_v2.1.0_performance/QuEST_Performance_2019/randomCircuit/arcus-b_CPU/30qubits8ranks16threads/build
+-- Build files have been written to: /data/oerc-rse/oerc0113/QuEST_v2.1.0_performance/QuEST_Performance_2019/randomCircuit/arcus-b_CPU/30qubits4ranks16threads/build
 Scanning dependencies of target QuEST
 [  9%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
 [ 18%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
@@ -52,24 +52,20 @@ Scanning dependencies of target demo
 QUBITS:
 Number of qubits is 30.
 Number of amps is 1073741824.
-Number of amps per rank is 134217728.
+Number of amps per rank is 268435456.
 EXECUTION ENVIRONMENT:
 Running distributed (MPI) version
-Number of ranks is 8
+Number of ranks is 4
 OpenMP enabled
 Number of threads available is 16
 Precision: size of qreal is 8 bytes
 Applied random circuit
-VERIFICATION: norm error = 1.446621e-13
-Total program execution: 15373.840869 s
-Total program execution: 15373.850549 s
-Total program execution: 15373.846030 s
-Total program execution: 15374.833651 s
-Total program execution: 15374.832969 s
-Total program execution: 15374.834679 s
-Total program execution: 15374.834904 s
-Total program execution: 15374.849807 s
+VERIFICATION: norm error = 1.445510e-13
+Total program execution: 31636.713383 s
+Total program execution: 31636.715081 s
+Total program execution: 31637.709999 s
+Total program execution: 31637.715030 s
 
-real	256m16.377s
+real	527m18.612s
 user	0m0.015s
-sys	0m0.027s
+sys	0m0.019s

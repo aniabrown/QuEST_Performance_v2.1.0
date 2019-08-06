@@ -33,7 +33,7 @@ CMake Warning at CMakeLists.txt:68 (message):
 -- Testing is OFF
 -- Configuring done
 -- Generating done
--- Build files have been written to: /data/oerc-rse/oerc0113/QuEST_v2.1.0_performance/QuEST_Performance_2019/randomCircuit/arcus-b_CPU/30qubits64ranks16threads/build
+-- Build files have been written to: /data/oerc-rse/oerc0113/QuEST_v2.1.0_performance/QuEST_Performance_2019/randomCircuit/arcus-b_CPU/30qubits4ranks16threads/build
 Scanning dependencies of target QuEST
 [  9%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
 [ 18%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
@@ -52,80 +52,13 @@ Scanning dependencies of target demo
 QUBITS:
 Number of qubits is 30.
 Number of amps is 1073741824.
-Number of amps per rank is 16777216.
+Number of amps per rank is 268435456.
 EXECUTION ENVIRONMENT:
 Running distributed (MPI) version
-Number of ranks is 64
+Number of ranks is 4
 OpenMP enabled
 Number of threads available is 16
 Precision: size of qreal is 8 bytes
-Applied random circuit
-VERIFICATION: norm error = 1.459943e-13
-Total program execution: 5420.164673 s
-Total program execution: 5420.147485 s
-Total program execution: 5420.163967 s
-Total program execution: 5420.152124 s
-Total program execution: 5420.152313 s
-Total program execution: 5420.151878 s
-Total program execution: 5420.163762 s
-Total program execution: 5420.152659 s
-Total program execution: 5420.164539 s
-Total program execution: 5420.162690 s
-Total program execution: 5420.163650 s
-Total program execution: 5420.157310 s
-Total program execution: 5420.163711 s
-Total program execution: 5420.153412 s
-Total program execution: 5420.152369 s
-Total program execution: 5420.163368 s
-Total program execution: 5420.152104 s
-Total program execution: 5420.153865 s
-Total program execution: 5420.153643 s
-Total program execution: 5420.160125 s
-Total program execution: 5420.154145 s
-Total program execution: 5420.161333 s
-Total program execution: 5420.168095 s
-Total program execution: 5420.164451 s
-Total program execution: 5420.170734 s
-Total program execution: 5421.162652 s
-Total program execution: 5421.162861 s
-Total program execution: 5421.163046 s
-Total program execution: 5421.162820 s
-Total program execution: 5421.162528 s
-Total program execution: 5421.163113 s
-Total program execution: 5421.163102 s
-Total program execution: 5421.162720 s
-Total program execution: 5421.162777 s
-Total program execution: 5421.163187 s
-Total program execution: 5421.163189 s
-Total program execution: 5421.163215 s
-Total program execution: 5421.162810 s
-Total program execution: 5421.162973 s
-Total program execution: 5421.162789 s
-Total program execution: 5421.162721 s
-Total program execution: 5421.161619 s
-Total program execution: 5421.163869 s
-Total program execution: 5421.163111 s
-Total program execution: 5421.163457 s
-Total program execution: 5421.163344 s
-Total program execution: 5421.163312 s
-Total program execution: 5421.163047 s
-Total program execution: 5421.163942 s
-Total program execution: 5421.163355 s
-Total program execution: 5421.162752 s
-Total program execution: 5421.154051 s
-Total program execution: 5421.154075 s
-Total program execution: 5421.160004 s
-Total program execution: 5421.154249 s
-Total program execution: 5421.164047 s
-Total program execution: 5421.165468 s
-Total program execution: 5421.163817 s
-Total program execution: 5421.154902 s
-Total program execution: 5421.165317 s
-Total program execution: 5421.165608 s
-Total program execution: 5421.165898 s
-Total program execution: 5421.164222 s
-Total program execution: 5421.173179 s
-
-real	90m27.162s
-user	0m0.059s
-sys	0m0.104s
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2145776.0 ON cnode1143 CANCELLED AT 2019-07-20T01:30:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2145776 ON cnode1143 CANCELLED AT 2019-07-20T01:30:32 DUE TO TIME LIMIT ***
