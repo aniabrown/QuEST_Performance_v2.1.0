@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
-*** ambrown3   Job: 6387530.sdb   started: 02/08/19 14:02:10   host: mom2 ***
-*** ambrown3   Job: 6387530.sdb   started: 02/08/19 14:02:10   host: mom2 ***
-*** ambrown3   Job: 6387530.sdb   started: 02/08/19 14:02:10   host: mom2 ***
-*** ambrown3   Job: 6387530.sdb   started: 02/08/19 14:02:10   host: mom2 ***
+*** ambrown3   Job: 6392767.sdb   started: 05/08/19 19:49:50   host: mom3 ***
+*** ambrown3   Job: 6392767.sdb   started: 05/08/19 19:49:50   host: mom3 ***
+*** ambrown3   Job: 6392767.sdb   started: 05/08/19 19:49:50   host: mom3 ***
+*** ambrown3   Job: 6392767.sdb   started: 05/08/19 19:49:50   host: mom3 ***
 
 --------------------------------------------------------------------------------
 -- The C compiler identification is Intel 17.0.0.20160721
@@ -61,23 +61,23 @@ OpenMP enabled
 Number of threads available is 24
 Precision: size of qreal is 8 bytes
 Applied random circuit
-VERIFICATION: norm error = 1.436629e-13
-Total program execution: 5223.325586 s
-Total program execution: 5223.358429 s
-Total program execution: 5223.356714 s
-Total program execution: 5223.362747 s
-Total program execution: 5223.377304 s
-Total program execution: 5223.381915 s
-Total program execution: 5223.386505 s
-Total program execution: 5223.397885 s
-Application 36812740 resources: utime ~887110s, stime ~6628s, Rss ~4205536, inblocks ~10513, outblocks ~1786
+VERIFICATION: norm error = 1.452172e-13
+Total program execution: 5059.402304 s
+Total program execution: 5059.422853 s
+Total program execution: 5059.430539 s
+Total program execution: 5059.438042 s
+Total program execution: 5059.447009 s
+Total program execution: 5059.466632 s
+Total program execution: 5059.470383 s
+Total program execution: 5059.470407 s
+Application 36829176 resources: utime ~886670s, stime ~6737s, Rss ~4205548, inblocks ~15786, outblocks ~1790
 --------------------------------------------------------------------------------
 
 Resources requested: ncpus=192,place=free,walltime=06:00:00
-Resources allocated: cpupercent=0,cput=00:00:26,mem=39444kb,ncpus=192,vmem=356208kb,walltime=01:28:09
+Resources allocated: cpupercent=0,cput=00:00:27,mem=37916kb,ncpus=192,vmem=262012kb,walltime=01:25:13
 
-*** ambrown3   Job: 6387530.sdb   ended: 02/08/19 15:30:18   queue: standard ***
-*** ambrown3   Job: 6387530.sdb   ended: 02/08/19 15:30:18   queue: standard ***
-*** ambrown3   Job: 6387530.sdb   ended: 02/08/19 15:30:18   queue: standard ***
-*** ambrown3   Job: 6387530.sdb   ended: 02/08/19 15:30:18   queue: standard ***
+*** ambrown3   Job: 6392767.sdb   ended: 05/08/19 21:15:02   queue: standard ***
+*** ambrown3   Job: 6392767.sdb   ended: 05/08/19 21:15:02   queue: standard ***
+*** ambrown3   Job: 6392767.sdb   ended: 05/08/19 21:15:02   queue: standard ***
+*** ambrown3   Job: 6392767.sdb   ended: 05/08/19 21:15:02   queue: standard ***
 --------------------------------------------------------------------------------
