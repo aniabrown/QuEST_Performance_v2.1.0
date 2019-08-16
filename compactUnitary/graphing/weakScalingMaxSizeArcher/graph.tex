@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{graphics}
+\usepackage{tikz}
+\pgfrealjobname{survey}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\begin{document}
+
+
+% -----------------------------------------------------------------------------
+% Archer weak scaling
+% -----------------------------------------------------------------------------
+
+\beginpgfgraphicnamed{archer_weakScaling}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Number of compute nodes},
+        ylabel={Speedup},
+        legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+
+    \addplot [
+        mark=*, mark size=2,
+        orange,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {../../archer/34qubits16ranks24threads/TIMING_STATS_ROTATE_34qubits_CPU_16ranksx24threads.csv};
+
+    \addlegendentry{34 qubits}
+
+
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+
+\end{document}
+
