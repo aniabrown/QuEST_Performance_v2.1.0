@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+*** ambrown3   Job: 6395231.sdb   started: 06/08/19 19:24:13   host: mom1 ***
+*** ambrown3   Job: 6395231.sdb   started: 06/08/19 19:24:13   host: mom1 ***
+*** ambrown3   Job: 6395231.sdb   started: 06/08/19 19:24:13   host: mom1 ***
+*** ambrown3   Job: 6395231.sdb   started: 06/08/19 19:24:13   host: mom1 ***
+
+--------------------------------------------------------------------------------
+-- The C compiler identification is Intel 17.0.0.20160721
+-- The CXX compiler identification is Intel 17.0.0.20160721
+-- Cray Programming Environment 2.5.10 C
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Cray Programming Environment 2.5.10 CXX
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/craype/2.5.10/bin/cc  
+-- Found MPI_CXX: /opt/cray/craype/2.5.10/bin/CC  
+-- Try OpenMP C flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -qopenmp  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Found PythonInterp: /usr/bin/python (found version "2.6.9") 
+-- Testing is OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/c01/c01/ambrown3/QuEST_Performance_v2.1.0/compactUnitary/archer/35qubits32ranks24threads/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+QUBITS:
+Number of qubits is 35.
+Number of amps is 34359738368.
+Number of amps per rank is 1073741824.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 32
+OpenMP enabled
+Number of threads available is 24
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -2.389200e-13
+Total program execution: 2370.729194 s
+Total program execution: 2370.732470 s
+Total program execution: 2370.778293 s
+Total program execution: 2370.778690 s
+Total program execution: 2370.790111 s
+Total program execution: 2370.790582 s
+Total program execution: 2370.814078 s
+Total program execution: 2370.837362 s
+Total program execution: 2370.841984 s
+Total program execution: 2370.846467 s
+Total program execution: 2370.850007 s
+Total program execution: 2370.849908 s
+Total program execution: 2370.854126 s
+Total program execution: 2370.861585 s
+Total program execution: 2370.858105 s
+Total program execution: 2370.858450 s
+Total program execution: 2370.862133 s
+Total program execution: 2370.811086 s
+Total program execution: 2370.861918 s
+Total program execution: 2370.865372 s
+Total program execution: 2370.870504 s
+Total program execution: 2370.874408 s
+Total program execution: 2370.886408 s
+Total program execution: 2370.901938 s
+Total program execution: 2370.908917 s
+Total program execution: 2370.906353 s
+Total program execution: 2370.914071 s
+Total program execution: 2370.909909 s
+Total program execution: 2370.922433 s
+Total program execution: 2370.934644 s
+Total program execution: 2370.958372 s
+Total program execution: 2370.961795 s
+Application 36836221 resources: utime ~808056s, stime ~16323s, Rss ~33562760, inblocks ~64814, outblocks ~8189470
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=768,place=free,walltime=01:30:00
+Resources allocated: cpupercent=0,cput=00:00:27,mem=21236kb,ncpus=768,vmem=163880kb,walltime=00:40:29
+
+*** ambrown3   Job: 6395231.sdb   ended: 06/08/19 20:04:41   queue: standard ***
+*** ambrown3   Job: 6395231.sdb   ended: 06/08/19 20:04:41   queue: standard ***
+*** ambrown3   Job: 6395231.sdb   ended: 06/08/19 20:04:41   queue: standard ***
+*** ambrown3   Job: 6395231.sdb   ended: 06/08/19 20:04:41   queue: standard ***
+--------------------------------------------------------------------------------

@@ -1,0 +1,138 @@
+--------------------------------------------------------------------------------
+*** ambrown3   Job: 6395233.sdb   started: 06/08/19 19:24:09   host: mom3 ***
+*** ambrown3   Job: 6395233.sdb   started: 06/08/19 19:24:09   host: mom3 ***
+*** ambrown3   Job: 6395233.sdb   started: 06/08/19 19:24:09   host: mom3 ***
+*** ambrown3   Job: 6395233.sdb   started: 06/08/19 19:24:09   host: mom3 ***
+
+--------------------------------------------------------------------------------
+-- The C compiler identification is Intel 17.0.0.20160721
+-- The CXX compiler identification is Intel 17.0.0.20160721
+-- Cray Programming Environment 2.5.10 C
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Cray Programming Environment 2.5.10 CXX
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/craype/2.5.10/bin/cc  
+-- Found MPI_CXX: /opt/cray/craype/2.5.10/bin/CC  
+-- Try OpenMP C flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -qopenmp  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Found PythonInterp: /usr/bin/python (found version "2.6.9") 
+-- Testing is OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/c01/c01/ambrown3/QuEST_Performance_v2.1.0/compactUnitary/archer/36qubits64ranks24threads/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+QUBITS:
+Number of qubits is 36.
+Number of amps is 68719476736.
+Number of amps per rank is 1073741824.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 64
+OpenMP enabled
+Number of threads available is 24
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -2.455813e-13
+Total program execution: 2800.584045 s
+Total program execution: 2800.600047 s
+Total program execution: 2800.611524 s
+Total program execution: 2800.616295 s
+Total program execution: 2800.599646 s
+Total program execution: 2800.624323 s
+Total program execution: 2800.624366 s
+Total program execution: 2800.622417 s
+Total program execution: 2800.627472 s
+Total program execution: 2800.628347 s
+Total program execution: 2800.632219 s
+Total program execution: 2800.636122 s
+Total program execution: 2800.635785 s
+Total program execution: 2800.643771 s
+Total program execution: 2800.643359 s
+Total program execution: 2800.644120 s
+Total program execution: 2800.643878 s
+Total program execution: 2800.647928 s
+Total program execution: 2800.647968 s
+Total program execution: 2800.655666 s
+Total program execution: 2800.660189 s
+Total program execution: 2800.664063 s
+Total program execution: 2800.652131 s
+Total program execution: 2800.663632 s
+Total program execution: 2800.667871 s
+Total program execution: 2800.675941 s
+Total program execution: 2800.659381 s
+Total program execution: 2800.647795 s
+Total program execution: 2800.683855 s
+Total program execution: 2800.687380 s
+Total program execution: 2800.671750 s
+Total program execution: 2800.691627 s
+Total program execution: 2800.663864 s
+Total program execution: 2800.708682 s
+Total program execution: 2800.699957 s
+Total program execution: 2800.703757 s
+Total program execution: 2800.704253 s
+Total program execution: 2800.708247 s
+Total program execution: 2800.708215 s
+Total program execution: 2800.708264 s
+Total program execution: 2800.691474 s
+Total program execution: 2800.700370 s
+Total program execution: 2800.724200 s
+Total program execution: 2800.732043 s
+Total program execution: 2800.732166 s
+Total program execution: 2800.735952 s
+Total program execution: 2800.739880 s
+Total program execution: 2800.744242 s
+Total program execution: 2800.743234 s
+Total program execution: 2800.704262 s
+Total program execution: 2800.723656 s
+Total program execution: 2800.752301 s
+Total program execution: 2800.755448 s
+Total program execution: 2800.760832 s
+Total program execution: 2800.755715 s
+Total program execution: 2800.759926 s
+Total program execution: 2800.767775 s
+Total program execution: 2800.768169 s
+Total program execution: 2800.772373 s
+Total program execution: 2800.763569 s
+Total program execution: 2800.787874 s
+Total program execution: 2800.783852 s
+Total program execution: 2800.755576 s
+Total program execution: 2800.827272 s
+Application 36836220 resources: utime ~1730626s, stime ~39977s, Rss ~33563104, inblocks ~277924, outblocks ~19655819
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=1536,place=free,walltime=01:30:00
+Resources allocated: cpupercent=0,cput=00:00:28,mem=56792kb,ncpus=1536,vmem=250404kb,walltime=00:47:42
+
+*** ambrown3   Job: 6395233.sdb   ended: 06/08/19 20:11:50   queue: standard ***
+*** ambrown3   Job: 6395233.sdb   ended: 06/08/19 20:11:50   queue: standard ***
+*** ambrown3   Job: 6395233.sdb   ended: 06/08/19 20:11:50   queue: standard ***
+*** ambrown3   Job: 6395233.sdb   ended: 06/08/19 20:11:50   queue: standard ***
+--------------------------------------------------------------------------------

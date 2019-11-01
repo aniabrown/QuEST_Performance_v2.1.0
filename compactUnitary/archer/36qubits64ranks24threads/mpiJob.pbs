@@ -1,7 +1,7 @@
 #!/bin/bash --login
 
 # set the number of nodes and processes per node. We are running one process on a single node
-#PBS -l select=16
+#PBS -l select=64
 
 #PBS -l walltime=01:30:00
 
@@ -26,10 +26,10 @@ mkdir build; cd build
 cmake $CMAKE_OPTIONS ../../..
 make
 
-NUM_QUBITS=34
+NUM_QUBITS=36
 NUM_TRIALS=50
 EXE=demo
 
-aprun -n 16 -d 24 -cc numa_node ./$EXE $NUM_QUBITS $NUM_TRIALS
+aprun -n 64 -d 24 -cc numa_node ./$EXE $NUM_QUBITS $NUM_TRIALS
 
 cp TIMING* ..
