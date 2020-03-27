@@ -1,0 +1,18 @@
+CMake Warning at CMakeLists.txt:68 (message):
+  Usable Python 3.4+ not found on system -- Disabling testing
+
+
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+icc: command line warning #10121: overriding '-xCORE-AVX-I' with '-xAVX'
+=>> PBS: job killed: walltime 1234 exceeded limit 1200
+aprun: Apid 36630421: Caught signal Terminated, sending to application
+_pmiu_daemon(SIGCHLD): [NID 00885] [c4-0c1s13n1] [Tue Jul 16 15:51:26 2019] PE RANK 1 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 00888] [c4-0c1s14n0] [Tue Jul 16 15:51:26 2019] PE RANK 3 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 00884] [c4-0c1s13n0] [Tue Jul 16 15:51:26 2019] PE RANK 0 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 00886] [c4-0c1s13n2] [Tue Jul 16 15:51:26 2019] PE RANK 2 exit signal Terminated

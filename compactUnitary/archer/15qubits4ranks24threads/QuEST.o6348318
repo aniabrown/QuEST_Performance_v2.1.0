@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+*** ambrown3   Job: 6348318.sdb   started: 16/07/19 15:24:32   host: mom2 ***
+*** ambrown3   Job: 6348318.sdb   started: 16/07/19 15:24:32   host: mom2 ***
+*** ambrown3   Job: 6348318.sdb   started: 16/07/19 15:24:32   host: mom2 ***
+*** ambrown3   Job: 6348318.sdb   started: 16/07/19 15:24:32   host: mom2 ***
+
+--------------------------------------------------------------------------------
+-- The C compiler identification is Intel 17.0.0.20160721
+-- The CXX compiler identification is Intel 17.0.0.20160721
+-- Cray Programming Environment 2.5.10 C
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc
+-- Check for working C compiler: /opt/cray/craype/2.5.10/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Cray Programming Environment 2.5.10 CXX
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC
+-- Check for working CXX compiler: /opt/cray/craype/2.5.10/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/craype/2.5.10/bin/cc  
+-- Found MPI_CXX: /opt/cray/craype/2.5.10/bin/CC  
+-- Try OpenMP C flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -qopenmp  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Found PythonInterp: /usr/bin/python (found version "2.6.9") 
+-- Testing is OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/c01/c01/ambrown3/QuEST_Performance_v2.1.0/compactUnitary/archer/15qubits4ranks24threads/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+QUBITS:
+Number of qubits is 25.
+Number of amps is 33554432.
+Number of amps per rank is 8388608.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 4
+OpenMP enabled
+Number of threads available is 24
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -6.328271e-14
+Total program execution: 19.503726 s
+Total program execution: 19.512136 s
+Total program execution: 19.511907 s
+Total program execution: 19.512144 s
+Application 36630386 resources: utime ~1700s, stime ~46s, Rss ~268724, inblocks ~4159, outblocks ~626
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=96,place=free,walltime=00:20:00
+Resources allocated: cpupercent=0,cput=00:00:27,mem=39388kb,ncpus=96,vmem=336372kb,walltime=00:01:15
+
+*** ambrown3   Job: 6348318.sdb   ended: 16/07/19 15:25:46   queue: R6337306 ***
+*** ambrown3   Job: 6348318.sdb   ended: 16/07/19 15:25:46   queue: R6337306 ***
+*** ambrown3   Job: 6348318.sdb   ended: 16/07/19 15:25:46   queue: R6337306 ***
+*** ambrown3   Job: 6348318.sdb   ended: 16/07/19 15:25:46   queue: R6337306 ***
+--------------------------------------------------------------------------------
