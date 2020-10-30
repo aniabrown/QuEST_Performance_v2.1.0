@@ -1,0 +1,98 @@
+-- The C compiler identification is Intel 16.0.4.20160811
+-- The CXX compiler identification is Intel 16.0.4.20160811
+-- Check for working C compiler: /system/software/linux-x86_64/compilers/intel/intelPS-2016/bin/icc
+-- Check for working C compiler: /system/software/linux-x86_64/compilers/intel/intelPS-2016/bin/icc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /system/software/linux-x86_64/compilers/intel/intelPS-2016/bin/icpc
+-- Check for working CXX compiler: /system/software/linux-x86_64/compilers/intel/intelPS-2016/bin/icpc -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /system/software/arcus-b/lib/mpi/mvapich2/2.1.0/intel-2016/lib/libmpi.so  
+-- Found MPI_CXX: /system/software/arcus-b/lib/mpi/mvapich2/2.1.0/intel-2016/lib/libmpicxx.so;/system/software/arcus-b/lib/mpi/mvapich2/2.1.0/intel-2016/lib/libmpi.so  
+-- Try OpenMP C flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-qopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -qopenmp  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Found PythonInterp: /usr/bin/python (found version "2.6.6") 
+CMake Warning at CMakeLists.txt:68 (message):
+  Usable Python 3.4+ not found on system -- Disabling testing
+
+
+-- Testing is OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /data/oerc-rse/oerc0113/QuEST_v2.1.0_performance/QuEST_Performance_2019/compactUnitary/arcus-b_CPU/35qubits32ranks1Islands_reservation/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+QUBITS:
+Number of qubits is 35.
+Number of amps is 34359738368.
+Number of amps per rank is 1073741824.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 32
+OpenMP enabled
+Number of threads available is 16
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -2.373657e-13
+Total program execution: 5758.812142 s
+Total program execution: 5758.812145 s
+Total program execution: 5758.812488 s
+Total program execution: 5758.811798 s
+Total program execution: 5758.812510 s
+Total program execution: 5758.812334 s
+Total program execution: 5758.812413 s
+Total program execution: 5758.811784 s
+Total program execution: 5758.811608 s
+Total program execution: 5758.812517 s
+Total program execution: 5758.812204 s
+Total program execution: 5758.811877 s
+Total program execution: 5758.812905 s
+Total program execution: 5758.812121 s
+Total program execution: 5758.813110 s
+Total program execution: 5758.812646 s
+Total program execution: 5759.806637 s
+Total program execution: 5759.806087 s
+Total program execution: 5759.806451 s
+Total program execution: 5759.806540 s
+Total program execution: 5759.806480 s
+Total program execution: 5759.806236 s
+Total program execution: 5759.807062 s
+Total program execution: 5759.806500 s
+Total program execution: 5759.810497 s
+Total program execution: 5759.810145 s
+Total program execution: 5759.810548 s
+Total program execution: 5759.810662 s
+Total program execution: 5759.810554 s
+Total program execution: 5759.810970 s
+Total program execution: 5759.811195 s
+Total program execution: 5759.810780 s
+
+real	96m0.326s
+user	0m0.040s
+sys	0m0.065s
