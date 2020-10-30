@@ -1,9 +1,10 @@
 import csv
 import math
 
-fileNameOutput = 'strongScaling30qubit.csv'
+fileNameOutput = 'weakScalingMaxSizeArcher.csv'
 
-ranks = [1, 2, 4, 8, 16, 32, 64]
+ranks = [2, 4, 8, 16, 32, 64]
+qubits= [31, 32, 33, 34, 35, 36]
 threads = 24
 compareRank = 1
 
@@ -11,9 +12,11 @@ getHeader = 1
 fullTable = []
 compareTime=1
 
-for rank in ranks:
-    fileName = '../../archer/30qubits' + str(rank) + 'ranks' + str(threads) + \
-            'threads/TIMING_STATS_ROTATE_30qubits_CPU_' + str(rank) + 'ranksx' + str(threads) + 'threads.csv'
+for index in range(len(ranks)):
+    rank = ranks[index]
+    qubitSize = qubits[index]
+    fileName = '../../archer/' + str(qubitSize) +'qubits' + str(rank) + 'ranks' + str(threads) + \
+            'threads/TIMING_STATS_ROTATE_' + str(qubitSize) + 'qubits_CPU_' + str(rank) + 'ranksx' + str(threads) + 'threads.csv'
 
     try:
         with open(fileName) as csvFileIn:
@@ -23,19 +26,14 @@ for rank in ranks:
                 fullTable.append(headers)
                 getHeader = 0
 
-            if (rank==compareRank):
-                compareTime = float(reader[1][1])
-                compareStandardDev = float(reader[1][2])
-          
+            #print(reader)
             time = float(reader[1][1])
-            speedup = compareTime/time
+
+            print(time)
 
             standardDev = float(reader[1][2])
 
-            speedupStandardDev = math.sqrt( (compareStandardDev/compareTime)**2 + \
-                    (standardDev/time)**2 )
-
-            dataRow = [rank, threads, speedup, speedupStandardDev] + reader[1]
+            dataRow = [rank, threads, time, standardDev] + reader[1]
             fullTable.append(dataRow)
     except:
         compareRank = compareRank*2
