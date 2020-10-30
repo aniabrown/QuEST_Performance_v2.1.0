@@ -1,0 +1,133 @@
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env-profile
+Loading cpe-cray
+Loading cce/10.0.3
+Loading craype/2.7.0
+Loading craype-x86-rome
+Loading libfabric/1.11.0.0.233
+Loading craype-network-ofi
+Loading cray-dsmml/0.1.2
+Loading perftools-base/20.09.0
+Loading xpmem/2.2.35-7.0.1.0_1.7__gd50fabf.shasta
+Loading cray-mpich/8.0.15
+Loading cray-libsci/20.08.1.2
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+ERROR: Collection PrgEnv-gnu cannot be found
+-- The C compiler identification is Clang 10.0.0
+-- The CXX compiler identification is Clang 10.0.0
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.0/bin/cc
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.0/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.0/bin/CC
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.0/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/pe/craype/2.7.0/bin/cc (found version "3.1") 
+-- Found MPI_CXX: /opt/cray/pe/craype/2.7.0/bin/CC (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Compiling RandomCircuit.c;RandomCircuitTimer.c to executable demo
+-- Testing is 0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /lus/cls01095/work/y18/y18/ambrown4/QuEST_Performance_v2.1.0/randomCircuit/archer2/30qubits64nodes1ranks128threads/build
+Scanning dependencies of target QuEST
+[  9%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 18%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 27%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 36%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 45%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 54%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 63%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 72%] Linking C shared library libQuEST.so
+[ 72%] Built target QuEST
+Scanning dependencies of target demo
+[ 81%] Building C object CMakeFiles/demo.dir/RandomCircuit.c.o
+[ 90%] Building C object CMakeFiles/demo.dir/RandomCircuitTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+Total program execution: 388.591857 s
+Total program execution: 388.553285 s
+Total program execution: 388.553421 s
+Total program execution: 388.593700 s
+Total program execution: 388.513572 s
+Total program execution: 388.553504 s
+Total program execution: 388.593565 s
+Total program execution: 388.672564 s
+Total program execution: 388.592439 s
+Total program execution: 388.593995 s
+Total program execution: 388.513763 s
+Total program execution: 388.633843 s
+Total program execution: 388.554009 s
+Total program execution: 388.553922 s
+Total program execution: 388.552776 s
+Total program execution: 388.553856 s
+Total program execution: 388.673950 s
+Total program execution: 388.632395 s
+Total program execution: 388.594094 s
+Total program execution: 388.632802 s
+Total program execution: 388.633002 s
+Total program execution: 388.514338 s
+Total program execution: 388.634288 s
+Total program execution: 388.604372 s
+Total program execution: 388.554479 s
+Total program execution: 388.594070 s
+Total program execution: 388.514414 s
+Total program execution: 388.604490 s
+Total program execution: 388.712883 s
+Total program execution: 388.514266 s
+Total program execution: 388.554476 s
+Total program execution: 388.514351 s
+Total program execution: 388.673098 s
+Total program execution: 388.633226 s
+Total program execution: 388.552821 s
+Total program execution: 388.554470 s
+Total program execution: 388.474395 s
+Total program execution: 388.474577 s
+Total program execution: 388.634617 s
+Total program execution: 388.554767 s
+Total program execution: 388.634657 s
+Total program execution: 388.594547 s
+Total program execution: 388.554775 s
+Total program execution: 388.594662 s
+Total program execution: 388.514633 s
+Total program execution: 388.594799 s
+Total program execution: 388.514695 s
+Total program execution: 388.554775 s
+Total program execution: 388.593504 s
+Total program execution: 388.634845 s
+Total program execution: 388.554918 s
+Total program execution: 388.514905 s
+Total program execution: 388.475031 s
+Total program execution: 388.555149 s
+Total program execution: 388.555016 s
+Total program execution: 388.475383 s
+Total program execution: 388.515025 s
+Total program execution: 388.475049 s
+Total program execution: 388.555662 s
+Total program execution: 388.515614 s
+Total program execution: 388.475518 s
+Total program execution: 388.476355 s
+QUBITS:
+Number of qubits is 30.
+Number of amps is 1073741824.
+Number of amps per rank is 16777216.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 64
+OpenMP enabled
+Number of threads available is 128
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = 1.443290e-13
+Total program execution: 388.474782 s
+Total program execution: 388.519043 s

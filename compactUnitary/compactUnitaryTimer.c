@@ -24,7 +24,7 @@
 //! Number of times rotations are repeated for timing purposes
 //! 1: perform one rotation outside the timing loop to get around long communication
 //! time for first MPI send/recv
-# define INIT_COMMUNICATION 0
+# define INIT_COMMUNICATION 1
 
 const long qreal Pi = 3.14159265358979323846264338327950288419716939937510;
 
