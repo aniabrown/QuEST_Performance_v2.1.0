@@ -1,0 +1,196 @@
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env-profile
+Loading cpe-cray
+Loading cce/10.0.3
+Loading craype/2.7.0
+Loading craype-x86-rome
+Loading libfabric/1.11.0.0.233
+Loading craype-network-ofi
+Loading cray-dsmml/0.1.2
+Loading perftools-base/20.09.0
+Loading xpmem/2.2.35-7.0.1.0_1.7__gd50fabf.shasta
+Loading cray-mpich/8.0.15
+Loading cray-libsci/20.08.1.2
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+ERROR: Collection PrgEnv-gnu cannot be found
+-- The C compiler identification is Clang 10.0.0
+-- The CXX compiler identification is Clang 10.0.0
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.0/bin/cc
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.0/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.0/bin/CC
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.0/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/pe/craype/2.7.0/bin/cc (found version "3.1") 
+-- Found MPI_CXX: /opt/cray/pe/craype/2.7.0/bin/CC (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Testing is 0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /lus/cls01095/work/y18/y18/ambrown4/QuEST_Performance_v2.1.0/compactUnitary/archer2/37qubits128nodes1ranks128threads/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+Total program execution: 1558.247513 s
+Total program execution: 1558.366862 s
+Total program execution: 1558.286950 s
+Total program execution: 1558.288089 s
+Total program execution: 1558.326853 s
+Total program execution: 1558.367990 s
+Total program execution: 1558.326720 s
+Total program execution: 1558.207884 s
+Total program execution: 1558.288146 s
+Total program execution: 1558.247870 s
+Total program execution: 1558.326963 s
+Total program execution: 1558.328212 s
+Total program execution: 1558.247075 s
+Total program execution: 1558.288373 s
+Total program execution: 1558.286860 s
+Total program execution: 1558.407081 s
+Total program execution: 1558.248216 s
+Total program execution: 1558.327110 s
+Total program execution: 1558.248216 s
+Total program execution: 1558.208344 s
+Total program execution: 1558.288518 s
+Total program execution: 1558.328547 s
+Total program execution: 1558.407047 s
+Total program execution: 1558.328187 s
+Total program execution: 1558.247315 s
+Total program execution: 1558.287086 s
+Total program execution: 1558.208504 s
+Total program execution: 1558.328403 s
+Total program execution: 1558.328332 s
+Total program execution: 1558.248332 s
+Total program execution: 1558.327276 s
+Total program execution: 1558.368408 s
+Total program execution: 1558.367352 s
+Total program execution: 1558.288691 s
+Total program execution: 1558.288483 s
+Total program execution: 1558.248473 s
+Total program execution: 1558.248883 s
+Total program execution: 1558.248242 s
+Total program execution: 1558.208933 s
+Total program execution: 1558.287494 s
+Total program execution: 1558.288467 s
+Total program execution: 1558.249118 s
+Total program execution: 1558.208561 s
+Total program execution: 1558.249311 s
+Total program execution: 1558.169505 s
+Total program execution: 1558.288785 s
+Total program execution: 1558.249147 s
+Total program execution: 1558.249325 s
+Total program execution: 1558.209406 s
+Total program execution: 1558.208975 s
+Total program execution: 1558.328778 s
+Total program execution: 1558.248711 s
+Total program execution: 1558.209392 s
+Total program execution: 1558.327622 s
+Total program execution: 1558.249028 s
+Total program execution: 1558.249099 s
+Total program execution: 1558.247520 s
+Total program execution: 1558.249377 s
+Total program execution: 1558.367968 s
+Total program execution: 1558.208871 s
+Total program execution: 1558.329388 s
+Total program execution: 1558.169437 s
+Total program execution: 1558.209403 s
+Total program execution: 1558.289150 s
+Total program execution: 1558.289016 s
+Total program execution: 1558.289297 s
+Total program execution: 1558.169473 s
+Total program execution: 1558.287630 s
+Total program execution: 1558.327688 s
+Total program execution: 1558.249319 s
+Total program execution: 1558.209489 s
+Total program execution: 1558.169462 s
+Total program execution: 1558.169204 s
+Total program execution: 1558.289301 s
+Total program execution: 1558.289186 s
+Total program execution: 1558.289154 s
+Total program execution: 1558.247364 s
+Total program execution: 1558.249370 s
+Total program execution: 1558.249285 s
+Total program execution: 1558.288983 s
+Total program execution: 1558.327615 s
+Total program execution: 1558.329303 s
+Total program execution: 1558.289462 s
+Total program execution: 1558.209691 s
+Total program execution: 1558.249465 s
+Total program execution: 1558.169447 s
+Total program execution: 1558.289401 s
+Total program execution: 1558.289538 s
+Total program execution: 1558.249496 s
+Total program execution: 1558.209389 s
+Total program execution: 1558.249735 s
+Total program execution: 1558.249475 s
+Total program execution: 1558.249901 s
+Total program execution: 1558.329883 s
+Total program execution: 1558.169582 s
+Total program execution: 1558.249799 s
+Total program execution: 1558.209798 s
+Total program execution: 1558.289693 s
+Total program execution: 1558.209766 s
+Total program execution: 1558.368325 s
+Total program execution: 1558.209870 s
+Total program execution: 1558.329888 s
+Total program execution: 1558.249983 s
+Total program execution: 1558.209717 s
+Total program execution: 1558.209775 s
+Total program execution: 1558.210010 s
+Total program execution: 1558.249251 s
+Total program execution: 1558.170066 s
+Total program execution: 1558.170061 s
+Total program execution: 1558.210312 s
+Total program execution: 1558.250130 s
+Total program execution: 1558.210235 s
+Total program execution: 1558.170179 s
+Total program execution: 1558.250578 s
+Total program execution: 1558.210109 s
+Total program execution: 1558.250475 s
+Total program execution: 1558.170443 s
+Total program execution: 1558.210461 s
+Total program execution: 1558.170779 s
+Total program execution: 1558.250844 s
+Total program execution: 1558.171259 s
+Total program execution: 1558.171005 s
+Total program execution: 1558.291524 s
+Total program execution: 1558.171466 s
+Total program execution: 1558.291270 s
+Total program execution: 1558.253155 s
+Total program execution: 1558.214307 s
+QUBITS:
+Number of qubits is 37.
+Number of amps is 137438953472.
+Number of amps per rank is 1073741824.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 128
+OpenMP enabled
+Number of threads available is 128
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -2.513545e-13
+Total program execution: 1558.177351 s
