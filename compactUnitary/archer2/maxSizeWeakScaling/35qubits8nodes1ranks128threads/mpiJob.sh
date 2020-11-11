@@ -3,8 +3,8 @@
 #SBATCH --job-name=QuEST
 #SBATCH --time=2:00:0
 #SBATCH --nodes=8
-#SBATCH --tasks-per-node=1
-#SBATCH --cpus-per-task=128
+#SBATCH --tasks-per-node=8
+#SBATCH --cpus-per-task=16
 
 #SBATCH --account=y18
 #SBATCH --partition=standard
@@ -15,7 +15,7 @@ module load epcc-job-env
 module restore PrgEnv-gnu
 #module restore /etc/cray-pe.d/PrgEnv-gnu
 
-export OMP_NUM_THREADS=128
+export OMP_NUM_THREADS=16
 export OMP_PLACES=cores
 
 CMAKE_OPTIONS="-DUSER_SOURCE='compactUnitaryTimer.c' -DQuEST_DIR=QuEST_v2.1.0-gcc10Patch -DDISTRIBUTED=1 -DTESTING=0"
