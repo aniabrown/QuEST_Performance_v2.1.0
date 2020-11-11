@@ -1,0 +1,187 @@
+\documentclass{article}
+\usepackage{graphics}
+\usepackage{tikz}
+\pgfrealjobname{survey}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\begin{document}
+
+\newcommand{\simResults}[4]{../../simulation/#1qubits#2ranks#3islands/SIM_STATS_ROTATE_#1qubits_#2ranks_#3islands_#4.csv}
+
+% -----------------------------------------------------------------------------
+% Archer weak scaling
+% -----------------------------------------------------------------------------
+
+\beginpgfgraphicnamed{sim_weakScaling}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        xmin=0,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        %y error plus=maxDelta,
+        %y error minus=minDelta
+    ] {\simResults{36}{64}{2}{packed}};
+    
+    \addlegendentry{36 qubits, 2 islands}
+
+
+
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+\beginpgfgraphicnamed{sim_weakScaling_3islands}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+        ymax=160
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        %y error plus=maxDelta,
+        %y error minus=minDelta
+    ] {\simResults{36}{64}{3}{t1}};
+    
+    \addlegendentry{Trial 1}
+
+        \addplot [
+        mark=*, mark size=2,
+        blue,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        %y error plus=maxDelta,
+        %y error minus=minDelta
+    ] {\simResults{36}{64}{3}{t2}};
+    
+    \addlegendentry{Trial 2}
+
+        \addplot [
+        mark=*, mark size=2,
+        green,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+        table [
+        y=time(s),
+        col sep=comma,
+        %y error plus=maxDelta,
+        %y error minus=minDelta
+    ] {\simResults{36}{64}{3}{t3}};
+    
+    \addlegendentry{Trial 3}
+
+
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+\beginpgfgraphicnamed{sim_weakScaling_3islands_100trials}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+        ymax=160
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\simResults{36}{64}{3}{100trials}};
+    
+    \addlegendentry{36 qubits, 3 islands}
+
+       \addplot [
+        mark=*, mark size=2,
+        green,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\simResults{36}{64}{5}{100trials}};
+    
+    \addlegendentry{36 qubits, 5 islands}
+
+        \addplot [
+        mark=*, mark size=2,
+        magenta,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\simResults{36}{64}{8}{100trials}};
+    
+    \addlegendentry{36 qubits, 8 islands}
+
+
+
+
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+
+
+\end{document}
+
