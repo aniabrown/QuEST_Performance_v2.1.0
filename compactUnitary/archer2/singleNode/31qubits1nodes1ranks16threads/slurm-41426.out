@@ -1,27 +1,27 @@
 Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env-profile
 Loading cpe-cray
-Loading cce/10.0.3
-Loading craype/2.7.0
+Loading cce/10.0.4
+Loading craype/2.7.2
 Loading craype-x86-rome
 Loading libfabric/1.11.0.0.233
 Loading craype-network-ofi
 Loading cray-dsmml/0.1.2
-Loading perftools-base/20.09.0
+Loading perftools-base/20.10.0
 Loading xpmem/2.2.35-7.0.1.0_1.7__gd50fabf.shasta
-Loading cray-mpich/8.0.15
-Loading cray-libsci/20.08.1.2
+Loading cray-mpich/8.0.16
+Loading cray-libsci/20.10.1.2
 Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
 ERROR: Collection PrgEnv-gnu cannot be found
 -- The C compiler identification is Clang 10.0.0
 -- The CXX compiler identification is Clang 10.0.0
--- Check for working C compiler: /opt/cray/pe/craype/2.7.0/bin/cc
--- Check for working C compiler: /opt/cray/pe/craype/2.7.0/bin/cc -- works
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.2/bin/cc
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.2/bin/cc -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Check for working CXX compiler: /opt/cray/pe/craype/2.7.0/bin/CC
--- Check for working CXX compiler: /opt/cray/pe/craype/2.7.0/bin/CC -- works
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.2/bin/CC
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.2/bin/CC -- works
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
@@ -29,8 +29,8 @@ ERROR: Collection PrgEnv-gnu cannot be found
 -- GPU acceleration is OFF
 -- OMP acceleration is ON
 -- MPI distribution is 1
--- Found MPI_C: /opt/cray/pe/craype/2.7.0/bin/cc (found version "3.1") 
--- Found MPI_CXX: /opt/cray/pe/craype/2.7.0/bin/CC (found version "3.1") 
+-- Found MPI_C: /opt/cray/pe/craype/2.7.2/bin/cc (found version "3.1") 
+-- Found MPI_CXX: /opt/cray/pe/craype/2.7.2/bin/CC (found version "3.1") 
 -- Found MPI: TRUE (found version "3.1")  
 -- Found OpenMP_C: -fopenmp (found version "4.5") 
 -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
@@ -39,7 +39,7 @@ ERROR: Collection PrgEnv-gnu cannot be found
 -- Testing is 0
 -- Configuring done
 -- Generating done
--- Build files have been written to: /lus/cls01095/work/y18/y18/ambrown4/QuEST_Performance_v2.1.0/compactUnitary/archer2/singleNode/31qubits1nodes1ranks8threads/build
+-- Build files have been written to: /lus/cls01095/work/y18/y18/ambrown4/QuEST_Performance_v2.1.0/compactUnitary/archer2/singleNode/31qubits1nodes1ranks16threads/build
 Scanning dependencies of target QuEST
 [ 10%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST.c.o
 [ 20%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
@@ -54,6 +54,16 @@ Scanning dependencies of target demo
 [ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
 [100%] Linking C executable demo
 [100%] Built target demo
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** STEP 35056.0 ON nid001019 CANCELLED AT 2020-10-30T14:12:14 DUE TO TIME LIMIT ***
-slurmstepd: error: *** JOB 35056 ON nid001019 CANCELLED AT 2020-10-30T14:12:14 DUE TO TIME LIMIT ***
+QUBITS:
+Number of qubits is 31.
+Number of amps is 2147483648.
+Number of amps per rank is 2147483648.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 1
+OpenMP enabled
+Number of threads available is 16
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -2.109424e-13
+Total program execution: 2947.863768 s

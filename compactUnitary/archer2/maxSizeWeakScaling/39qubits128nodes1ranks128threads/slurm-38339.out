@@ -1,0 +1,196 @@
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env-profile
+Loading cpe-cray
+Loading cce/10.0.4
+Loading craype/2.7.2
+Loading craype-x86-rome
+Loading libfabric/1.11.0.0.233
+Loading craype-network-ofi
+Loading cray-dsmml/0.1.2
+Loading perftools-base/20.10.0
+Loading xpmem/2.2.35-7.0.1.0_1.7__gd50fabf.shasta
+Loading cray-mpich/8.0.16
+Loading cray-libsci/20.10.1.2
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+ERROR: Collection PrgEnv-gnu cannot be found
+-- The C compiler identification is Clang 10.0.0
+-- The CXX compiler identification is Clang 10.0.0
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.2/bin/cc
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.2/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.2/bin/CC
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.2/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/pe/craype/2.7.2/bin/cc (found version "3.1") 
+-- Found MPI_CXX: /opt/cray/pe/craype/2.7.2/bin/CC (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Testing is 0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /lus/cls01095/work/y18/y18/ambrown4/QuEST_Performance_v2.1.0/compactUnitary/archer2/maxSizeWeakScaling/39qubits128nodes1ranks128threads/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+Total program execution: 5339.399794 s
+Total program execution: 5339.286469 s
+Total program execution: 5339.354674 s
+Total program execution: 5339.349527 s
+Total program execution: 5339.411699 s
+Total program execution: 5339.414621 s
+Total program execution: 5339.469683 s
+Total program execution: 5339.314916 s
+Total program execution: 5339.474326 s
+Total program execution: 5339.400456 s
+Total program execution: 5339.278792 s
+Total program execution: 5339.371161 s
+Total program execution: 5339.396634 s
+Total program execution: 5339.283220 s
+Total program execution: 5339.283346 s
+Total program execution: 5339.426973 s
+Total program execution: 5339.526773 s
+Total program execution: 5339.365344 s
+Total program execution: 5339.250426 s
+Total program execution: 5339.489295 s
+Total program execution: 5339.357335 s
+Total program execution: 5339.441491 s
+Total program execution: 5339.447703 s
+Total program execution: 5339.489790 s
+Total program execution: 5339.290455 s
+Total program execution: 5339.540603 s
+Total program execution: 5339.538642 s
+Total program execution: 5339.541947 s
+Total program execution: 5339.277809 s
+Total program execution: 5339.546840 s
+Total program execution: 5339.413319 s
+Total program execution: 5339.369229 s
+Total program execution: 5339.485117 s
+Total program execution: 5339.512837 s
+Total program execution: 5339.506632 s
+Total program execution: 5339.494282 s
+Total program execution: 5339.254562 s
+Total program execution: 5339.513004 s
+Total program execution: 5339.512700 s
+Total program execution: 5339.351008 s
+Total program execution: 5339.253048 s
+Total program execution: 5339.589886 s
+Total program execution: 5339.573065 s
+Total program execution: 5339.564777 s
+Total program execution: 5339.581608 s
+Total program execution: 5339.583233 s
+Total program execution: 5339.464970 s
+Total program execution: 5339.425033 s
+Total program execution: 5339.315827 s
+Total program execution: 5339.655503 s
+Total program execution: 5339.277763 s
+Total program execution: 5339.290610 s
+Total program execution: 5339.393463 s
+Total program execution: 5339.388910 s
+Total program execution: 5339.398425 s
+Total program execution: 5339.393448 s
+Total program execution: 5339.316011 s
+Total program execution: 5339.316890 s
+Total program execution: 5339.317461 s
+Total program execution: 5339.316923 s
+Total program execution: 5339.452378 s
+Total program execution: 5339.326883 s
+Total program execution: 5339.317373 s
+Total program execution: 5339.318727 s
+Total program execution: 5339.512518 s
+Total program execution: 5339.359684 s
+Total program execution: 5339.499751 s
+Total program execution: 5339.260238 s
+Total program execution: 5339.356756 s
+Total program execution: 5339.371440 s
+Total program execution: 5339.354351 s
+Total program execution: 5339.464777 s
+Total program execution: 5339.615668 s
+Total program execution: 5339.584646 s
+Total program execution: 5339.395981 s
+Total program execution: 5339.447189 s
+Total program execution: 5339.453612 s
+Total program execution: 5339.497632 s
+Total program execution: 5339.386695 s
+Total program execution: 5339.352997 s
+Total program execution: 5339.658514 s
+Total program execution: 5339.620363 s
+Total program execution: 5339.581278 s
+Total program execution: 5339.590602 s
+Total program execution: 5339.423464 s
+Total program execution: 5339.634384 s
+Total program execution: 5339.415329 s
+Total program execution: 5339.550074 s
+QUBITS:
+Number of qubits is 39.
+Number of amps is 549755813888.
+Number of amps per rank is 4294967296.
+EXECUTION ENVIRONMENT:
+Running distributed (MPI) version
+Number of ranks is 128
+OpenMP enabled
+Number of threads available is 128
+Precision: size of qreal is 8 bytes
+Applied random circuit
+VERIFICATION: norm error = -2.651213e-13
+Total program execution: 5339.534418 s
+Total program execution: 5339.512376 s
+Total program execution: 5339.672236 s
+Total program execution: 5339.566447 s
+Total program execution: 5339.494876 s
+Total program execution: 5339.586493 s
+Total program execution: 5339.507894 s
+Total program execution: 5339.550118 s
+Total program execution: 5339.419689 s
+Total program execution: 5339.388640 s
+Total program execution: 5339.451141 s
+Total program execution: 5339.648250 s
+Total program execution: 5339.457460 s
+Total program execution: 5339.610551 s
+Total program execution: 5339.686607 s
+Total program execution: 5339.778296 s
+Total program execution: 5339.749558 s
+Total program execution: 5339.464923 s
+Total program execution: 5339.481880 s
+Total program execution: 5339.559885 s
+Total program execution: 5339.676727 s
+Total program execution: 5339.818136 s
+Total program execution: 5339.457972 s
+Total program execution: 5339.661425 s
+Total program execution: 5339.700488 s
+Total program execution: 5339.531920 s
+Total program execution: 5339.611695 s
+Total program execution: 5339.533040 s
+Total program execution: 5339.675693 s
+Total program execution: 5339.711485 s
+Total program execution: 5339.458150 s
+Total program execution: 5339.758985 s
+Total program execution: 5339.588676 s
+Total program execution: 5339.677562 s
+Total program execution: 5339.500780 s
+Total program execution: 5339.762392 s
+Total program execution: 5339.674116 s
+Total program execution: 5339.575206 s
+Total program execution: 5339.750357 s
+Total program execution: 5339.813448 s

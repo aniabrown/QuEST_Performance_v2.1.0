@@ -1,0 +1,1603 @@
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env-profile
+Loading cpe-cray
+Loading cce/10.0.4
+Loading craype/2.7.2
+Loading craype-x86-rome
+Loading libfabric/1.11.0.0.233
+Loading craype-network-ofi
+Loading cray-dsmml/0.1.2
+Loading perftools-base/20.10.0
+Loading xpmem/2.2.35-7.0.1.0_1.7__gd50fabf.shasta
+Loading cray-mpich/8.0.16
+Loading cray-libsci/20.10.1.2
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+ERROR: Collection PrgEnv-gnu cannot be found
+-- The C compiler identification is Clang 10.0.0
+-- The CXX compiler identification is Clang 10.0.0
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.2/bin/cc
+-- Check for working C compiler: /opt/cray/pe/craype/2.7.2/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.2/bin/CC
+-- Check for working CXX compiler: /opt/cray/pe/craype/2.7.2/bin/CC -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GPU acceleration is OFF
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Found MPI_C: /opt/cray/pe/craype/2.7.2/bin/cc (found version "3.1") 
+-- Found MPI_CXX: /opt/cray/pe/craype/2.7.2/bin/CC (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Compiling compactUnitaryTimer.c to executable demo
+-- Testing is 0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /lus/cls01095/work/y18/y18/ambrown4/QuEST_Performance_v2.1.0/compactUnitary/archer2/maxSizeWeakScaling/41qubits512nodes1ranks128threads/build
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST_v2.1.0-gcc10Patch/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_distributed.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/compactUnitaryTimer.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+slurmstepd: error: mpi/cray_shasta: Couldn't parse reserved ports 20000,32767
+Fri Nov  6 20:04:14 2020: [PE_401]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:14 2020: [PE_401]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:14 2020: [PE_449]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:14 2020: [PE_449]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:14 2020: [PE_433]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:14 2020: [PE_433]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:17 2020: [PE_401]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:17 2020: [PE_401]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:17 2020: [PE_449]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:17 2020: [PE_449]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:17 2020: [PE_433]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:17 2020: [PE_433]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:20 2020: [PE_401]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:20 2020: [PE_401]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:20 2020: [PE_401]:_pmi_init:_pmi_inet_setup (full) returned -1
+Fri Nov  6 20:04:20 2020: [PE_449]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:20 2020: [PE_449]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:20 2020: [PE_449]:_pmi_init:_pmi_inet_setup (full) returned -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001777] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+Fri Nov  6 20:04:20 2020: [PE_415]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_415]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_415]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_416]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_416]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_416]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_403]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_403]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_403]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_404]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_404]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_404]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_409]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_409]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_409]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_410]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_410]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_410]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_411]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_411]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_411]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_412]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_412]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_412]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_413]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_413]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_413]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_414]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_414]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_414]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_402]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_402]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_402]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_405]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_405]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_405]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_406]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_406]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_406]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_408]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_408]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_408]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_407]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_407]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_407]:_pmi_init:network_barrier failed
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001873] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001781] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001789] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001840] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001780] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001782] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001783] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001788] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001790] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001784] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001778] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001786] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001785] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001791] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+Fri Nov  6 20:04:20 2020: [PE_463]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_463]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_463]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_450]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_450]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_450]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_452]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_452]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_452]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_454]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_454]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_454]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_455]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_455]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_455]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_456]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_456]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_456]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_459]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_459]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_459]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_460]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_460]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_460]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_461]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_461]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_461]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_462]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_462]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_462]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_451]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_451]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_451]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_453]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_453]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_453]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_464]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_464]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_464]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_457]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_457]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_457]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_458]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_458]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_458]:_pmi_init:network_barrier failed
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001891] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001874] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001876] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001905] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001875] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001909] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001892] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001906] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001904] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001894] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001908] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001910] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001907] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001792] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001787] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+Fri Nov  6 20:04:20 2020: [PE_433]:inet_connect:socket error state No route to host
+Fri Nov  6 20:04:20 2020: [PE_433]:_pmi_inet_setup:inet_connect failed
+Fri Nov  6 20:04:20 2020: [PE_433]:_pmi_init:_pmi_inet_setup (full) returned -1
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001895] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+srun: error: nid001910: task 464: Exited with exit code 255
+srun: Terminating job step 41415.0
+Fri Nov  6 20:04:20 2020: [PE_15]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_13]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_14]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_11]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_16]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_3]:inet_recv:inet_recv: unexpected EOF Success
+srun: error: nid001874: task 450: Exited with exit code 255
+slurmstepd: error: *** STEP 41415.0 ON nid001000 CANCELLED AT 2020-11-06T20:04:20 ***
+Fri Nov  6 20:04:20 2020: [PE_30]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_271]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_269]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_127]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_272]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_171]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_128]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_119]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_124]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_122]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_126]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_120]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_175]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_121]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_176]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_123]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_125]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_115]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_116]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_117]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_118]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_174]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_376]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_377]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_378]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_379]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_380]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_381]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_382]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_384]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_383]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_46]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_79]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_47]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_80]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_77]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_73]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_41]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_76]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_224]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_289]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_289]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_289]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_48]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_49]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_49]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_49]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_305]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_305]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_305]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_97]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_97]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_97]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_337]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_337]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_337]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_129]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_129]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_129]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_241]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_241]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_241]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_385]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_385]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_385]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_353]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_353]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_353]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_145]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_145]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_145]:_pmi_init:network_barrier failed
+srun: error: nid001024: task 19: Terminated
+Fri Nov  6 20:04:20 2020: [PE_497]:inet_recv:inet_recv: recv error (fd=19) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_497]:_pmi_network_barrier:_pmi_inet_recv from target 14 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_497]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_193]:inet_recv:inet_recv: recv error (fd=20) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_193]:_pmi_network_barrier:_pmi_inet_recv from target 15 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_193]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_288]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_287]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_283]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_284]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_286]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_188]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_189]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_187]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_190]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_191]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_192]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_183]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_185]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_186]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_333]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_330]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_332]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_334]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_328]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_329]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_335]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_336]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_326]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_432]:inet_recv:inet_recv: recv error (fd=5) Connection reset by peer
+Fri Nov  6 20:04:20 2020: [PE_432]:_pmi_network_barrier:_pmi_inet_recv from target 0 failed pmi errno -1
+Fri Nov  6 20:04:20 2020: [PE_432]:_pmi_init:network_barrier failed
+Fri Nov  6 20:04:20 2020: [PE_240]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_331]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_92]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_94]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_95]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_96]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_400]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_396]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_389]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_394]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_397]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_398]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_399]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_395]:inet_recv:inet_recv: unexpected EOF Success
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001539] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+Fri Nov  6 20:04:20 2020: [PE_140]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_143]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_144]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_139]:inet_recv:inet_recv: unexpected EOF Success
+srun: error: nid001461: task 266: Terminated
+Fri Nov  6 20:04:20 2020: [PE_141]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_338]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_344]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_345]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_346]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_347]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_352]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_342]:inet_recv:inet_recv: unexpected EOF Success
+MPICH ERROR [Rank 0] [job id unknown] [Fri Nov  6 20:04:20 2020] [unknown] [nid001638] - Abort(590863) (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+
+aborting job:
+Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(632): 
+MPID_Init(286).......:  PMI2 init failed: 1 
+Fri Nov  6 20:04:20 2020: [PE_349]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_350]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_351]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_296]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_348]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_302]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_357]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_354]:inet_recv:inet_recv: unexpected EOF Success
+Fri Nov  6 20:04:20 2020: [PE_355]:inet_recv:inet_recv: unexpected EOF Success
+srun: error: nid001895: task 457: Exited with exit code 255
+srun: error: nid001730: task 386: Terminated
+srun: error: nid001012: task 12: Terminated
+srun: error: nid001454: task 259: Terminated
+srun: error: nid001216: task 139: Terminated
+srun: error: nid002008: task 506: Terminated
+srun: error: nid001005: task 5: Terminated
+srun: error: nid001208: task 132: Terminated
+srun: error: nid001706: task 379: Terminated
+srun: error: nid002001: task 499: Terminated
+srun: error: nid001431: task 252: Terminated
+srun: error: nid001663: task 372: Terminated
+srun: error: nid001201: task 125: Terminated
+srun: error: nid001994: task 492: Terminated
+srun: error: nid001424: task 245: Terminated
+srun: error: nid001656: task 365: Terminated
+srun: error: nid001194: task 118: Terminated
+srun: error: nid001987: task 485: Terminated
+srun: error: nid001400: task 238: Terminated
+srun: error: nid001647: task 358: Terminated
+srun: error: nid001186: task 111: Terminated
+srun: error: nid001785: task 408: Exited with exit code 255
+srun: error: nid001939: task 478: Terminated
+srun: error: nid001393: task 231: Terminated
+srun: error: nid001179: task 104: Terminated
+srun: error: nid001777: task 401: Exited with exit code 255
+srun: error: nid001636: task 351: Terminated
+srun: error: nid001792: task 415: Exited with exit code 255
+srun: error: nid001917: task 471: Terminated
+srun: error: nid001386: task 224: Terminated
+srun: error: nid001168: task 97: Terminated
+srun: error: nid001379: task 217: Terminated
+srun: error: nid001629: task 344: Terminated
+srun: error: nid001161: task 90: Terminated
+srun: error: nid001621: task 337: Terminated
+srun: error: nid001372: task 210: Terminated
+srun: error: nid001609: task 330: Terminated
+srun: error: nid001133: task 83: Terminated
+srun: error: nid001348: task 203: Terminated
+srun: error: nid001594: task 323: Terminated
+srun: error: nid001126: task 76: Terminated
+srun: error: nid001289: task 196: Terminated
+srun: error: nid001867: task 443: Terminated
+srun: error: nid001587: task 316: Terminated
+srun: error: nid001119: task 69: Terminated
+srun: error: nid001572: task 309: Terminated
+srun: error: nid001860: task 436: Terminated
+srun: error: nid001105: task 62: Terminated
+srun: error: nid001280: task 189: Terminated
+srun: error: nid001853: task 429: Terminated
+srun: error: nid001273: task 182: Terminated
+srun: error: nid001098: task 55: Terminated
+srun: error: nid001846: task 422: Terminated
+srun: error: nid001266: task 175: Terminated
+srun: error: nid001088: task 48: Terminated
+srun: error: nid001545: task 295: Terminated
+srun: error: nid001253: task 168: Terminated
+srun: error: nid001081: task 41: Terminated
+srun: error: nid001538: task 288: Terminated
+srun: error: nid001246: task 161: Terminated
+srun: error: nid001904: task 458: Exited with exit code 255
+srun: error: nid001518: task 281: Terminated
+srun: error: nid001236: task 154: Terminated
+srun: error: nid001074: task 34: Terminated
+srun: error: nid001037: task 27: Terminated
+srun: error: nid001875: task 451: Exited with exit code 255
+srun: error: nid001511: task 274: Terminated
+srun: error: nid001744: task 394: Terminated
+srun: error: nid001025: task 20: Terminated
+srun: error: nid001462: task 267: Terminated
+srun: error: nid001228: task 147: Terminated
+srun: error: nid001217: task 140: Terminated
+srun: error: nid001455: task 260: Terminated
+srun: error: nid001013: task 13: Terminated
+srun: error: nid001731: task 387: Terminated
+srun: error: nid002009: task 507: Terminated
+srun: error: nid001006: task 6: Terminated
+srun: error: nid001707: task 380: Terminated
+srun: error: nid001209: task 133: Terminated
+srun: error: nid001448: task 253: Terminated
+srun: error: nid002002: task 500: Terminated
+srun: error: nid001664: task 373: Terminated
+srun: error: nid001202: task 126: Terminated
+srun: error: nid001425: task 246: Terminated
+srun: error: nid001995: task 493: Terminated
+srun: error: nid001657: task 366: Terminated
+srun: error: nid001840: task 416: Exited with exit code 255
+srun: error: nid001988: task 486: Terminated
+srun: error: nid001195: task 119: Terminated
+srun: error: nid001401: task 239: Terminated
+srun: error: nid001187: task 112: Terminated
+srun: error: nid001648: task 359: Terminated
+srun: error: nid001786: task 409: Exited with exit code 255
+srun: error: nid001940: task 479: Terminated
+srun: error: nid001180: task 105: Terminated
+srun: error: nid001394: task 232: Terminated
+srun: error: nid001637: task 352: Terminated
+srun: error: nid001778: task 402: Exited with exit code 255
+srun: error: nid001933: task 472: Terminated
+srun: error: nid001387: task 225: Terminated
+srun: error: nid001630: task 345: Terminated
+srun: error: nid001169: task 98: Terminated
+srun: error: nid001911: task 465: Terminated
+srun: error: nid001380: task 218: Terminated
+srun: error: nid001622: task 338: Terminated
+srun: error: nid001162: task 91: Terminated
+srun: error: nid001373: task 211: Terminated
+srun: error: nid001134: task 84: Terminated
+srun: error: nid001610: task 331: Terminated
+srun: error: nid001349: task 204: Terminated
+srun: error: nid001127: task 77: Terminated
+srun: error: nid001602: task 324: Terminated
+srun: error: nid001290: task 197: Terminated
+srun: error: nid001868: task 444: Terminated
+srun: error: nid001120: task 70: Terminated
+srun: error: nid001588: task 317: Terminated
+srun: error: nid001861: task 437: Terminated
+srun: error: nid001281: task 190: Terminated
+srun: error: nid001106: task 63: Terminated
+srun: error: nid001573: task 310: Terminated
+srun: error: nid001854: task 430: Terminated
+srun: error: nid001274: task 183: Terminated
+srun: error: nid001099: task 56: Terminated
+srun: error: nid001566: task 303: Terminated
+srun: error: nid001267: task 176: Terminated
+srun: error: nid001847: task 423: Terminated
+srun: error: nid001546: task 296: Terminated
+srun: error: nid001256: task 169: Terminated
+srun: error: nid001089: task 49: Terminated
+srun: error: nid001247: task 162: Terminated
+srun: error: nid001082: task 42: Terminated
+srun: error: nid001539: task 289: Exited with exit code 255
+srun: error: nid001075: task 35: Terminated
+srun: error: nid001905: task 459: Exited with exit code 255
+srun: error: nid001519: task 282: Terminated
+srun: error: nid001237: task 155: Terminated
+srun: error: nid001876: task 452: Exited with exit code 255
+srun: error: nid001038: task 28: Terminated
+srun: error: nid001512: task 275: Terminated
+srun: error: nid001026: task 21: Terminated
+srun: error: nid001745: task 395: Terminated
+srun: error: nid001463: task 268: Terminated
+srun: error: nid001229: task 148: Terminated
+srun: error: nid001732: task 388: Terminated
+srun: error: nid001014: task 14: Terminated
+srun: error: nid001218: task 141: Terminated
+srun: error: nid001456: task 261: Terminated
+srun: error: nid002010: task 508: Terminated
+srun: error: nid001007: task 7: Terminated
+srun: error: nid001708: task 381: Terminated
+srun: error: nid001210: task 134: Terminated
+srun: error: nid002003: task 501: Terminated
+srun: error: nid001449: task 254: Terminated
+srun: error: nid001565: task 302: Terminated
+srun: error: nid001665: task 374: Terminated
+srun: error: nid001000: task 0: Terminated
+srun: error: nid001203: task 127: Terminated
+srun: error: nid001426: task 247: Terminated
+srun: error: nid001996: task 494: Terminated
+srun: error: nid001196: task 120: Terminated
+srun: error: nid001658: task 367: Terminated
+srun: error: nid001649: task 360: Terminated
+srun: error: nid001404: task 240: Terminated
+srun: error: nid001989: task 487: Terminated
+srun: error: nid001188: task 113: Terminated
+srun: error: nid001181: task 106: Terminated
+srun: error: nid001941: task 480: Terminated
+srun: error: nid001395: task 233: Terminated
+srun: error: nid001638: task 353: Exited with exit code 255
+srun: error: nid001780: task 403: Exited with exit code 255
+srun: error: nid001934: task 473: Terminated
+srun: error: nid001388: task 226: Terminated
+srun: error: nid001631: task 346: Terminated
+srun: error: nid001912: task 466: Terminated
+srun: error: nid001787: task 410: Exited with exit code 255
+srun: error: nid001170: task 99: Terminated
+srun: error: nid001381: task 219: Terminated
+srun: error: nid001163: task 92: Terminated
+srun: error: nid001623: task 339: Terminated
+srun: error: nid001374: task 212: Terminated
+srun: error: nid001611: task 332: Terminated
+srun: error: nid001135: task 85: Terminated
+srun: error: nid001350: task 205: Terminated
+srun: error: nid001128: task 78: Terminated
+srun: error: nid001603: task 325: Terminated
+srun: error: nid001291: task 198: Terminated
+srun: error: nid001869: task 445: Terminated
+srun: error: nid001121: task 71: Terminated
+srun: error: nid001589: task 318: Terminated
+srun: error: nid001862: task 438: Terminated
+srun: error: nid001282: task 191: Terminated
+srun: error: nid001574: task 311: Terminated
+srun: error: nid001107: task 64: Terminated
+srun: error: nid001275: task 184: Terminated
+srun: error: nid001855: task 431: Terminated
+srun: error: nid001100: task 57: Terminated
+srun: error: nid001567: task 304: Terminated
+srun: error: nid001848: task 424: Terminated
+srun: error: nid001268: task 177: Terminated
+srun: error: nid001090: task 50: Terminated
+srun: error: nid001547: task 297: Terminated
+srun: error: nid001257: task 170: Terminated
+srun: error: nid001841: task 417: Terminated
+srun: error: nid001083: task 43: Terminated
+srun: error: nid001540: task 290: Terminated
+srun: error: nid001248: task 163: Terminated
+srun: error: nid001076: task 36: Terminated
+srun: error: nid001906: task 460: Exited with exit code 255
+srun: error: nid001524: task 283: Terminated
+srun: error: nid001238: task 156: Terminated
+srun: error: nid001039: task 29: Terminated
+srun: error: nid001891: task 453: Exited with exit code 255
+srun: error: nid001513: task 276: Terminated
+srun: error: nid001027: task 22: Terminated
+srun: error: nid001230: task 149: Terminated
+srun: error: nid001746: task 396: Terminated
+srun: error: nid001506: task 269: Terminated
+srun: error: nid001015: task 15: Terminated
+srun: error: nid001457: task 262: Terminated
+srun: error: nid001733: task 389: Terminated
+srun: error: nid001219: task 142: Terminated
+srun: error: nid002011: task 509: Terminated
+srun: error: nid001710: task 382: Terminated
+srun: error: nid001008: task 8: Terminated
+srun: error: nid001211: task 135: Terminated
+srun: error: nid002004: task 502: Terminated
+srun: error: nid001450: task 255: Terminated
+srun: error: nid001204: task 128: Terminated
+srun: error: nid001667: task 375: Terminated
+srun: error: nid001001: task 1: Terminated
+srun: error: nid001997: task 495: Terminated
+srun: error: nid001427: task 248: Terminated
+srun: error: nid001659: task 368: Terminated
+srun: error: nid001197: task 121: Terminated
+srun: error: nid001650: task 361: Terminated
+srun: error: nid001990: task 488: Terminated
+srun: error: nid001190: task 114: Terminated
+srun: error: nid001788: task 411: Exited with exit code 255
+srun: error: nid001396: task 234: Terminated
+srun: error: nid001942: task 481: Terminated
+srun: error: nid001182: task 107: Terminated
+srun: error: nid001639: task 354: Terminated
+srun: error: nid001781: task 404: Exited with exit code 255
+srun: error: nid001935: task 474: Terminated
+srun: error: nid001389: task 227: Terminated
+srun: error: nid001632: task 347: Terminated
+srun: error: nid001171: task 100: Terminated
+srun: error: nid001913: task 467: Terminated
+srun: error: nid001382: task 220: Terminated
+srun: error: nid001405: task 241: Terminated
+srun: error: nid001624: task 340: Terminated
+srun: error: nid001164: task 93: Terminated
+srun: error: nid001375: task 213: Terminated
+srun: error: nid001136: task 86: Terminated
+srun: error: nid001351: task 206: Terminated
+srun: error: nid001617: task 333: Terminated
+srun: error: nid001129: task 79: Terminated
+srun: error: nid001604: task 326: Terminated
+srun: error: nid001870: task 446: Terminated
+srun: error: nid001314: task 199: Terminated
+srun: error: nid001122: task 72: Terminated
+srun: error: nid001590: task 319: Terminated
+srun: error: nid001863: task 439: Terminated
+srun: error: nid001283: task 192: Terminated
+srun: error: nid001580: task 312: Terminated
+srun: error: nid001115: task 65: Terminated
+srun: error: nid001856: task 432: Terminated
+srun: error: nid001101: task 58: Terminated
+srun: error: nid001276: task 185: Terminated
+srun: error: nid001568: task 305: Terminated
+srun: error: nid001269: task 178: Terminated
+srun: error: nid001849: task 425: Terminated
+srun: error: nid001548: task 298: Terminated
+srun: error: nid001091: task 51: Terminated
+srun: error: nid001258: task 171: Terminated
+srun: error: nid001842: task 418: Terminated
+srun: error: nid001084: task 44: Terminated
+srun: error: nid001541: task 291: Terminated
+srun: error: nid001249: task 164: Terminated
+srun: error: nid001907: task 461: Exited with exit code 255
+srun: error: nid001525: task 284: Terminated
+srun: error: nid001077: task 37: Terminated
+srun: error: nid001242: task 157: Terminated
+srun: error: nid001040: task 30: Terminated
+srun: error: nid001892: task 454: Exited with exit code 255
+srun: error: nid001514: task 277: Terminated
+srun: error: nid001231: task 150: Terminated
+srun: error: nid001028: task 23: Terminated
+srun: error: nid001773: task 397: Terminated
+srun: error: nid001507: task 270: Terminated
+srun: error: nid001734: task 390: Terminated
+srun: error: nid002012: task 510: Terminated
+srun: error: nid001220: task 143: Terminated
+srun: error: nid001021: task 16: Terminated
+srun: error: nid001458: task 263: Terminated
+srun: error: nid001711: task 383: Terminated
+srun: error: nid001213: task 136: Terminated
+srun: error: nid001009: task 9: Terminated
+srun: error: nid001451: task 256: Terminated
+srun: error: nid002005: task 503: Terminated
+srun: error: nid001668: task 376: Terminated
+srun: error: nid001205: task 129: Terminated
+srun: error: nid001002: task 2: Terminated
+srun: error: nid001428: task 249: Terminated
+srun: error: nid001998: task 496: Terminated
+srun: error: nid001660: task 369: Terminated
+srun: error: nid001198: task 122: Terminated
+srun: error: nid001991: task 489: Terminated
+srun: error: nid001651: task 362: Terminated
+srun: error: nid001406: task 242: Terminated
+srun: error: nid001191: task 115: Terminated
+srun: error: nid001789: task 412: Exited with exit code 255
+srun: error: nid001943: task 482: Terminated
+srun: error: nid001183: task 108: Terminated
+srun: error: nid001397: task 235: Terminated
+srun: error: nid001640: task 355: Terminated
+srun: error: nid001782: task 405: Exited with exit code 255
+srun: error: nid001390: task 228: Terminated
+srun: error: nid001936: task 475: Terminated
+srun: error: nid001914: task 468: Terminated
+srun: error: nid001633: task 348: Terminated
+srun: error: nid001172: task 101: Terminated
+srun: error: nid001383: task 221: Terminated
+srun: error: nid001165: task 94: Terminated
+srun: error: nid001376: task 214: Terminated
+srun: error: nid001626: task 341: Terminated
+srun: error: nid001352: task 207: Terminated
+srun: error: nid001618: task 334: Terminated
+srun: error: nid001158: task 87: Terminated
+srun: error: nid001130: task 80: Terminated
+srun: error: nid001605: task 327: Terminated
+srun: error: nid001871: task 447: Terminated
+srun: error: nid001315: task 200: Terminated
+srun: error: nid001591: task 320: Terminated
+srun: error: nid001123: task 73: Terminated
+srun: error: nid001864: task 440: Terminated
+srun: error: nid001116: task 66: Terminated
+srun: error: nid001581: task 313: Terminated
+srun: error: nid001277: task 186: Terminated
+srun: error: nid001102: task 59: Terminated
+srun: error: nid001569: task 306: Terminated
+srun: error: nid001850: task 426: Terminated
+srun: error: nid001092: task 52: Terminated
+srun: error: nid001270: task 179: Terminated
+srun: error: nid001549: task 299: Terminated
+srun: error: nid001284: task 193: Terminated
+srun: error: nid001259: task 172: Terminated
+srun: error: nid001843: task 419: Terminated
+srun: error: nid001542: task 292: Terminated
+srun: error: nid001085: task 45: Terminated
+srun: error: nid001250: task 165: Terminated
+srun: error: nid001078: task 38: Terminated
+srun: error: nid001908: task 462: Exited with exit code 255
+srun: error: nid001526: task 285: Terminated
+srun: error: nid001243: task 158: Terminated
+srun: error: nid001041: task 31: Terminated
+srun: error: nid001515: task 278: Terminated
+srun: error: nid001232: task 151: Terminated
+srun: error: nid001774: task 398: Terminated
+srun: error: nid001034: task 24: Terminated
+srun: error: nid001508: task 271: Terminated
+srun: error: nid001857: task 433: Terminated
+srun: error: nid001735: task 391: Terminated
+srun: error: nid001221: task 144: Terminated
+srun: error: nid002013: task 511: Terminated
+srun: error: nid001022: task 17: Terminated
+srun: error: nid001459: task 264: Terminated
+srun: error: nid001712: task 384: Terminated
+srun: error: nid001214: task 137: Terminated
+srun: error: nid001010: task 10: Terminated
+srun: error: nid001452: task 257: Terminated
+srun: error: nid002006: task 504: Terminated
+srun: error: nid001669: task 377: Terminated
+srun: error: nid001206: task 130: Terminated
+srun: error: nid001003: task 3: Terminated
+srun: error: nid001429: task 250: Terminated
+srun: error: nid001661: task 370: Terminated
+srun: error: nid001199: task 123: Terminated
+srun: error: nid001992: task 490: Terminated
+srun: error: nid001192: task 116: Terminated
+srun: error: nid001407: task 243: Terminated
+srun: error: nid001654: task 363: Terminated
+srun: error: nid001790: task 413: Exited with exit code 255
+srun: error: nid001398: task 236: Terminated
+srun: error: nid001985: task 483: Terminated
+srun: error: nid001184: task 109: Terminated
+srun: error: nid001641: task 356: Terminated
+srun: error: nid001783: task 406: Exited with exit code 255
+srun: error: nid001937: task 476: Terminated
+srun: error: nid001391: task 229: Terminated
+srun: error: nid001999: task 497: Terminated
+srun: error: nid001634: task 349: Terminated
+srun: error: nid001177: task 102: Terminated
+srun: error: nid001915: task 469: Terminated
+srun: error: nid001384: task 222: Terminated
+srun: error: nid001627: task 342: Terminated
+srun: error: nid001166: task 95: Terminated
+srun: error: nid001377: task 215: Terminated
+srun: error: nid001353: task 208: Terminated
+srun: error: nid001159: task 88: Terminated
+srun: error: nid001619: task 335: Terminated
+srun: error: nid001131: task 81: Terminated
+srun: error: nid001606: task 328: Terminated
+srun: error: nid001872: task 448: Terminated
+srun: error: nid001316: task 201: Terminated
+srun: error: nid001592: task 321: Terminated
+srun: error: nid001124: task 74: Terminated
+srun: error: nid001285: task 194: Terminated
+srun: error: nid001865: task 441: Terminated
+srun: error: nid001117: task 67: Terminated
+srun: error: nid001582: task 314: Terminated
+srun: error: nid001858: task 434: Terminated
+srun: error: nid001103: task 60: Terminated
+srun: error: nid001278: task 187: Terminated
+srun: error: nid001570: task 307: Terminated
+srun: error: nid001271: task 180: Terminated
+srun: error: nid001093: task 53: Terminated
+srun: error: nid001851: task 427: Terminated
+srun: error: nid001550: task 300: Terminated
+srun: error: nid001260: task 173: Terminated
+srun: error: nid001844: task 420: Terminated
+srun: error: nid001086: task 46: Terminated
+srun: error: nid001543: task 293: Terminated
+srun: error: nid001251: task 166: Terminated
+srun: error: nid001909: task 463: Exited with exit code 255
+srun: error: nid001527: task 286: Terminated
+srun: error: nid001893: task 455: Terminated
+srun: error: nid001079: task 39: Terminated
+srun: error: nid001244: task 159: Terminated
+srun: error: nid001894: task 456: Exited with exit code 255
+srun: error: nid001072: task 32: Terminated
+srun: error: nid001516: task 279: Terminated
+srun: error: nid001234: task 152: Terminated
+srun: error: nid001775: task 399: Terminated
+srun: error: nid001873: task 449: Exited with exit code 255
+srun: error: nid001509: task 272: Terminated
+srun: error: nid001035: task 25: Terminated
+srun: error: nid001742: task 392: Terminated
+srun: error: nid001023: task 18: Terminated
+srun: error: nid001460: task 265: Terminated
+srun: error: nid001713: task 385: Terminated
+srun: error: nid001011: task 11: Terminated
+srun: error: nid001215: task 138: Terminated
+srun: error: nid001453: task 258: Terminated
+srun: error: nid001705: task 378: Terminated
+srun: error: nid002007: task 505: Terminated
+srun: error: nid001004: task 4: Terminated
+srun: error: nid001207: task 131: Terminated
+srun: error: nid002000: task 498: Terminated
+srun: error: nid001662: task 371: Terminated
+srun: error: nid001430: task 251: Terminated
+srun: error: nid001200: task 124: Terminated
+srun: error: nid001423: task 244: Terminated
+srun: error: nid001993: task 491: Terminated
+srun: error: nid001655: task 364: Terminated
+srun: error: nid001193: task 117: Terminated
+srun: error: nid001791: task 414: Exited with exit code 255
+srun: error: nid001986: task 484: Terminated
+srun: error: nid001399: task 237: Terminated
+srun: error: nid001185: task 110: Terminated
+srun: error: nid001784: task 407: Exited with exit code 255
+srun: error: nid001646: task 357: Terminated
+srun: error: nid001392: task 230: Terminated
+srun: error: nid001938: task 477: Terminated
+srun: error: nid001178: task 103: Terminated
+srun: error: nid001635: task 350: Terminated
+srun: error: nid001222: task 145: Terminated
+srun: error: nid001916: task 470: Terminated
+srun: error: nid001385: task 223: Terminated
+srun: error: nid001167: task 96: Terminated
+srun: error: nid001628: task 343: Terminated
+srun: error: nid001378: task 216: Terminated
+srun: error: nid001160: task 89: Terminated
+srun: error: nid001620: task 336: Terminated
+srun: error: nid001354: task 209: Terminated
+srun: error: nid001132: task 82: Terminated
+srun: error: nid001608: task 329: Terminated
+srun: error: nid001317: task 202: Terminated
+srun: error: nid001593: task 322: Terminated
+srun: error: nid001125: task 75: Terminated
+srun: error: nid001866: task 442: Terminated
+srun: error: nid001288: task 195: Terminated
+srun: error: nid001583: task 315: Terminated
+srun: error: nid001118: task 68: Terminated
+srun: error: nid001279: task 188: Terminated
+srun: error: nid001104: task 61: Terminated
+srun: error: nid001859: task 435: Terminated
+srun: error: nid001571: task 308: Terminated
+srun: error: nid001272: task 181: Terminated
+srun: error: nid001094: task 54: Terminated
+srun: error: nid001852: task 428: Terminated
+srun: error: nid001551: task 301: Terminated
+srun: error: nid001845: task 421: Terminated
+srun: error: nid001261: task 174: Terminated
+srun: error: nid001544: task 294: Terminated
+srun: error: nid001087: task 47: Terminated
+srun: error: nid001252: task 167: Terminated
+srun: error: nid001080: task 40: Terminated
+srun: error: nid001528: task 287: Terminated
+srun: error: nid001245: task 160: Terminated
+srun: error: nid001073: task 33: Terminated
+srun: error: nid001517: task 280: Terminated
+srun: error: nid001776: task 400: Terminated
+srun: error: nid001235: task 153: Terminated
+srun: error: nid001036: task 26: Terminated
+srun: error: nid001510: task 273: Terminated
+srun: error: nid001743: task 393: Terminated
+srun: error: nid001223: task 146: Terminated
+srun: Force Terminated job step 41415.0
+cp: cannot stat 'TIMING*': No such file or directory

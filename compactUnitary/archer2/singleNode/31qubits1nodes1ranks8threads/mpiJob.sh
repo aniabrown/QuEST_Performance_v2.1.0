@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=QuEST
-#SBATCH --time=0:30:0
+#SBATCH --time=4:30:0
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=8
