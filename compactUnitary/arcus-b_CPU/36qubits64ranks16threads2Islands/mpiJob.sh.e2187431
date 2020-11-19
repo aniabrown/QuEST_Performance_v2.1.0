@@ -1,0 +1,9 @@
+rm: cannot remove `build': No such file or directory
+CMake Warning at CMakeLists.txt:68 (message):
+  Usable Python 3.4+ not found on system -- Disabling testing
+
+
+
+real	221m39.751s
+user	0m0.052s
+sys	0m0.107s
