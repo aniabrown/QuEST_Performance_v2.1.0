@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage{graphics}
+\usepackage{tikz}
+\pgfrealjobname{survey}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\begin{document}
+
+\newcommand{\archerResults}[3]{../../archer2/singleNode/#1qubits1nodes#2ranks#3threads/TIMING_STATS_ROTATE_#1qubits_CPU_#2ranksx#3threads.csv}
+
+% -----------------------------------------------------------------------------
+% Archer weak scaling
+% -----------------------------------------------------------------------------
+
+\beginpgfgraphicnamed{archer_weakScaling}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+	%xmax = 30,
+	%ymax = 0.6
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+
+    \addplot [
+        mark=*, mark size=2,
+        blue,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{31}{16}{8}};
+
+    \addlegendentry{16 ranks, 8 threads}
+
+
+    \addplot [
+        mark=*, mark size=2,
+        orange,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{31}{8}{16}};
+
+    \addlegendentry{8 ranks, 16 threads}
+
+    \addplot [
+        mark=*, mark size=2,
+        gray,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{31}{4}{32}};
+
+    \addlegendentry{4 ranks, 32 threads}
+
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{31}{2}{64}};
+    \addlegendentry{2 ranks, 64 threads}
+
+    \addplot [
+        mark=*, mark size=2,
+        magenta,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{31}{1}{128}};
+    \addlegendentry{1 rank, 128 threads}
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+\end{document}
+

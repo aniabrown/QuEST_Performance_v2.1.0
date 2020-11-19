@@ -1,0 +1,254 @@
+\documentclass{article}
+\usepackage{graphics}
+\usepackage{tikz}
+\pgfrealjobname{survey}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\begin{document}
+
+\newcommand{\archerResults}[2]{../../archer2/#1qubits#2nodes1ranks128threads/TIMING_STATS_ROTATE_#1qubits_CPU_#2ranksx128threads.csv}
+
+% -----------------------------------------------------------------------------
+% Archer weak scaling
+% -----------------------------------------------------------------------------
+
+\beginpgfgraphicnamed{archer_weakScaling}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+	%xmax = 30,
+	%ymax = 0.6
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+%    \addplot [
+%        mark=*, mark size=2,
+%        green,
+%        error bars/.cd,
+%        y dir = both, y explicit,
+%        ]
+%    table [
+%        y=time(s),
+%        col sep=comma,
+%        y error plus=maxDelta,
+%        y error minus=minDelta
+%    ] {\archerResults{32}{4}};
+%    
+%    \addlegendentry{32 qubits, 4 nodes}
+%
+%    \addplot [
+%        mark=*, mark size=2,
+%        blue,
+%        error bars/.cd,
+%        y dir = both, y explicit,
+%        ]
+%    table [
+%        y=time(s),
+%        col sep=comma,
+%        y error plus=maxDelta,
+%        y error minus=minDelta
+%    ] {\archerResults{33}{8}};
+%
+%    \addlegendentry{33 qubits, 8 nodes}
+%
+%    \addplot [
+%        mark=*, mark size=2,
+%        orange,
+%        error bars/.cd,
+%        y dir = both, y explicit,
+%        ]
+%    table [
+%        y=time(s),
+%        col sep=comma,
+%        y error plus=maxDelta,
+%        y error minus=minDelta
+%    ] {\archerResults{34}{16}};
+%
+%    \addlegendentry{34 qubits, 16 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        gray,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{35}{32}};
+
+    \addlegendentry{35 qubits, 32 nodes}
+
+
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{36}{64}};
+
+    \addlegendentry{36 qubits, 64 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        magenta,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{37}{128}};
+
+    \addlegendentry{37 qubits, 128 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        black,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{38}{256}};
+
+    \addlegendentry{38 qubits, 256 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        brown,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{39}{512}};
+
+    \addlegendentry{39 qubits, 512 nodes}
+
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+\beginpgfgraphicnamed{archer_weakScaling_q32-q36}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+	%xmax = 30,
+	ymax = 15
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+    \addplot [
+        mark=*, mark size=2,
+        green,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{32}{4}};
+    
+    \addlegendentry{32 qubits, 4 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        blue,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{33}{8}};
+
+    \addlegendentry{33 qubits, 8 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        orange,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{34}{16}};
+
+    \addlegendentry{34 qubits, 16 nodes}
+
+    \addplot [
+        mark=*, mark size=2,
+        gray,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{35}{32}};
+
+    \addlegendentry{35 qubits, 32 nodes}
+
+
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{36}{64}};
+
+    \addlegendentry{36 qubits, 64 nodes}
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
+
+\end{document}
+
