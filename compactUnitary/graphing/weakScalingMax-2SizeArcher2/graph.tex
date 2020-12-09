@@ -249,6 +249,39 @@
 \end{tikzpicture}
 \endpgfgraphicnamed
 
+\beginpgfgraphicnamed{archer_weakScaling_q36}
+\begin{tikzpicture}[scale=1.2]
+    \begin{axis}[
+        xlabel={Target qubit},
+        ylabel={Time (s)},
+        %legend style={at=({0.05,0.70}),anchor=south west,draw=none},
+        legend style={at=({0.05,0.40}),anchor=south west},
+        very thin,
+        %xticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        width = 10cm,
+        height = 6cm,
+	%xmax = 30,
+	ymax = 6
+        %yticklabels = {$2^0$, $2^1$, $2^2$, $2^3$, $2^4$, $2^5$, $2^6$},
+        ]
+
+    \addplot [
+        mark=*, mark size=2,
+        red,
+        error bars/.cd,
+        y dir = both, y explicit,
+        ]
+    table [
+        y=time(s),
+        col sep=comma,
+        y error plus=maxDelta,
+        y error minus=minDelta
+    ] {\archerResults{36}{64}};
+
+\end{axis}
+\end{tikzpicture}
+\endpgfgraphicnamed
+
 
 \end{document}
 
